@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Segoe UI, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="hero3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3)"/>
+  <rect x="60" y="50" width="680" height="500" rx="16" fill="#0b1220" stroke="#334155"/>
+  <rect x="60" y="50" width="680" height="44" rx="16" fill="#111c30"/>
+  <circle cx="90" cy="72" r="6" fill="#f87171"/>
+  <circle cx="112" cy="72" r="6" fill="#fbbf24"/>
+  <circle cx="134" cy="72" r="6" fill="#34d399"/>
+  <rect x="170" y="62" width="360" height="20" rx="10" fill="#1e293b"/>
+  <!-- Banner premium -->
+  <rect x="100" y="125" width="580" height="130" rx="14" fill="url(#hero3)"/>
+  <text x="130" y="175" fill="#f1f5f9" font-size="22" font-weight="700">Akahl Club — Contenido Premium</text>
+  <text x="130" y="205" fill="#cbd5e1" font-size="13">Ebooks y videos exclusivos para suscriptores</text>
+  <rect x="530" y="185" width="120" height="38" rx="19" fill="#22d3ee"/>
+  <text x="553" y="209" fill="#0b1220" font-size="13" font-weight="700">Suscribirse</text>
+  <!-- Tarjetas de contenido -->
+  <g>
+    <rect x="100" y="285" width="180" height="200" rx="12" fill="#111c30" stroke="#1e3a5f"/>
+    <rect x="100" y="285" width="180" height="90" rx="12" fill="#1e293b"/>
+    <polygon points="175,315 205,330 175,345" fill="#22d3ee"/>
+    <rect x="114" y="395" width="120" height="12" rx="6" fill="#334155"/>
+    <rect x="114" y="418" width="90" height="8" rx="4" fill="#1e3a5f"/>
+    <rect x="114" y="445" width="70" height="22" rx="11" fill="#164e63"/>
+    <text x="126" y="460" fill="#22d3ee" font-size="10">PRO</text>
+    <rect x="310" y="285" width="180" height="200" rx="12" fill="#111c30" stroke="#1e3a5f"/>
+    <rect x="310" y="285" width="180" height="90" rx="12" fill="#1e293b"/>
+    <rect x="378" y="310" width="44" height="56" rx="4" fill="#8b5cf6" opacity="0.8"/>
+    <rect x="386" y="318" width="28" height="40" rx="2" fill="#c4b5fd"/>
+    <rect x="324" y="395" width="120" height="12" rx="6" fill="#334155"/>
+    <rect x="324" y="418" width="90" height="8" rx="4" fill="#1e3a5f"/>
+    <rect x="324" y="445" width="70" height="22" rx="11" fill="#164e63"/>
+    <text x="336" y="460" fill="#22d3ee" font-size="10">PRO</text>
+    <rect x="520" y="285" width="180" height="200" rx="12" fill="#111c30" stroke="#1e3a5f"/>
+    <rect x="520" y="285" width="180" height="90" rx="12" fill="#1e293b"/>
+    <polygon points="595,315 625,330 595,345" fill="#22d3ee"/>
+    <rect x="534" y="395" width="120" height="12" rx="6" fill="#334155"/>
+    <rect x="534" y="418" width="90" height="8" rx="4" fill="#1e3a5f"/>
+    <rect x="534" y="445" width="70" height="22" rx="11" fill="#334155"/>
+    <text x="546" y="460" fill="#94a3b8" font-size="10">FREE</text>
+  </g>
+</svg>
