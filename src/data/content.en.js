@@ -269,6 +269,12 @@ const content = {
         name: "Penelope Kleppe",
         role: "CO-CEO — Akahl Style",
       },
+      {
+        quote:
+          "He elevated my social media presence completely. Professional, fast, and he understands exactly what a real estate brand needs to look trustworthy.",
+        name: "Alejandra Perez",
+        role: "Realtor — Florida",
+      },
     ],
   },
 

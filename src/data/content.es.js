@@ -265,6 +265,12 @@ const content = {
         name: "Penelope Kleppe",
         role: "CO-CEO — Akahl Style",
       },
+      {
+        quote:
+          "Me elevó por completo la presencia en redes. Profesional, rápido y entiende exactamente lo que una marca de bienes raíces necesita para verse confiable.",
+        name: "Alejandra Perez",
+        role: "Realtor — Florida",
+      },
     ],
   },
 
