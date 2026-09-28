@@ -218,7 +218,7 @@ const content = {
     title: "My path so far",
     items: [
       {
-        period: "2021 — 2026",
+        period: "2018 — 2026",
         title: "B.Sc. in Informatics Engineering — UCAB",
         description:
           "Software engineering fundamentals, systems architecture and network infrastructure. IEEE/ACM-aligned curriculum.",
@@ -290,7 +290,7 @@ const content = {
       {
         icon: Server,
         category: "Backend & DB",
-        items: ["Node.js", "Express", "REST APIs", "Prisma"],
+        items: ["Node.js", "Express", "REST APIs", "Prisma", "MySQL", "Oracle SQL"],
       },
       {
         icon: Cloud,

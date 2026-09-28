@@ -214,7 +214,7 @@ const content = {
     title: "Mi camino hasta aquí",
     items: [
       {
-        period: "2021 — 2026",
+        period: "2018 — 2026",
         title: "Ingeniería en Informática — UCAB",
         description:
           "Fundamentos de ingeniería de software, arquitectura de sistemas e infraestructura de redes. Pensum alineado con IEEE/ACM.",
@@ -286,7 +286,7 @@ const content = {
       {
         icon: Server,
         category: "Backend & DB",
-        items: ["Node.js", "Express", "REST APIs", "Prisma"],
+        items: ["Node.js", "Express", "REST APIs", "Prisma", "MySQL", "Oracle SQL"],
       },
       {
         icon: Cloud,

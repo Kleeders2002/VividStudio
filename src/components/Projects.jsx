@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import {
   motion,
   useMotionValue,
@@ -45,16 +45,28 @@ function TiltFrame({ children }) {
   );
 }
 
+/* Muestra el screenshot real del proyecto; si aún no existe en
+   /public/images/projects/, cae al mockup SVG (sin loop de errores). */
+function RealImage({ image, alt }) {
+  const [src, setSrc] = useState(image.real);
+  return (
+    <img
+      src={src}
+      alt={alt}
+      onError={() => {
+        if (src !== image.mockup) setSrc(image.mockup);
+      }}
+      className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+      loading="lazy"
+    />
+  );
+}
+
 function ProjectImage({ project }) {
   if (project.image) {
     return (
       <TiltFrame>
-        <img
-          src={project.image}
-          alt={project.title}
-          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-          loading="lazy"
-        />
+        <RealImage image={project.image} alt={project.title} />
       </TiltFrame>
     );
   }

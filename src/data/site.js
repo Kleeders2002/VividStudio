@@ -16,7 +16,9 @@ export const LINKS = {
 };
 
 export const PROJECT_IMAGES = [
-  "/images/proyecto-iot.svg",
-  "/images/akahl-catalogue.svg",
-  "/images/akahl-club.svg",
+  // `real` = tu screenshot en /public/images/projects/ — si el archivo no
+  // existe todavía, el sitio cae automáticamente al mockup SVG.
+  { real: "/images/projects/proyecto-iot.png", mockup: "/images/proyecto-iot.svg" },
+  { real: "/images/projects/akahl-catalogue.png", mockup: "/images/akahl-catalogue.svg" },
+  { real: "/images/projects/akahl-club.png", mockup: "/images/akahl-club.svg" },
 ];
