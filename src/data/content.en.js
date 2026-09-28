@@ -250,6 +250,28 @@ const content = {
     ],
   },
 
+  // ⚠️ CITAS BORRADOR — aún NO aprobadas por las personas nombradas.
+  // Antes de publicar/pushear: consigue su OK (un WhatsApp basta) o
+  // reemplázalas con sus palabras reales. Sin avatar → se muestran iniciales.
+  testimonials: {
+    kicker: "Testimonials",
+    title: "What clients say",
+    items: [
+      {
+        quote:
+          "Kleeders built our catalogue portal and our subscription platform — both delivered exactly as promised, with clear communication from start to finish. He's now our go-to developer.",
+        name: "Alex Kleppe",
+        role: "CEO — Akahl Style",
+      },
+      {
+        quote:
+          "Fast, honest and detail-oriented. He picked up our brand quickly, and the team found the portal easy to use from day one.",
+        name: "Penelope Kleppe",
+        role: "CO-CEO — Akahl Style",
+      },
+    ],
+  },
+
   stack: {
     kicker: "Tech stack",
     title: "Tools I build with",

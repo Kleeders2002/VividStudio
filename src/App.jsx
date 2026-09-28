@@ -7,6 +7,7 @@ import Services from "./components/Services.jsx";
 import Process from "./components/Process.jsx";
 import Assurances from "./components/Assurances.jsx";
 import Projects from "./components/Projects.jsx";
+import Testimonials from "./components/Testimonials.jsx";
 import Timeline from "./components/Timeline.jsx";
 import TechStack from "./components/TechStack.jsx";
 import FAQ from "./components/FAQ.jsx";
@@ -30,6 +31,7 @@ export default function App() {
             <Process />
             <Assurances />
             <Projects />
+            <Testimonials />
             <Timeline />
             <TechStack />
             <FAQ />
