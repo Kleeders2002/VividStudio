@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
 import SectionHeading from "./SectionHeading.jsx";
@@ -29,6 +30,24 @@ function InitialsAvatar({ name, index }) {
   );
 }
 
+/* Foto del cliente si existe en /public/images/avatars/; si el archivo
+   aún no está (o falla), cae a las iniciales — sin romper nada. */
+function TestimonialAvatar({ t, index }) {
+  const [broken, setBroken] = useState(false);
+  if (!t.avatar || broken) {
+    return <InitialsAvatar name={t.name} index={index} />;
+  }
+  return (
+    <img
+      src={t.avatar}
+      alt={t.name}
+      loading="lazy"
+      onError={() => setBroken(true)}
+      className="h-10 w-10 rounded-full object-cover ring-2 ring-cyan-400/30"
+    />
+  );
+}
+
 function TestimonialCard({ t, index }) {
   const [ref, onMouseMove] = useSpotlight();
 
@@ -52,16 +71,7 @@ function TestimonialCard({ t, index }) {
         “{t.quote}”
       </blockquote>
       <figcaption className="mt-6 flex items-center gap-3 border-t border-slate-800 pt-4">
-        {t.avatar ? (
-          <img
-            src={t.avatar}
-            alt={t.name}
-            loading="lazy"
-            className="h-10 w-10 rounded-full object-cover ring-2 ring-cyan-400/30"
-          />
-        ) : (
-          <InitialsAvatar name={t.name} index={index} />
-        )}
+        <TestimonialAvatar t={t} index={index} />
         <div>
           <p className="text-sm font-semibold text-white">{t.name}</p>
           <p className="text-xs text-slate-500">{t.role}</p>

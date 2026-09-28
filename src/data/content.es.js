@@ -258,18 +258,22 @@ const content = {
           "Kleeders construyó nuestro portal de catálogo y nuestra plataforma de suscripciones — ambos entregados exactamente como lo prometido, con comunicación clara de principio a fin. Hoy es nuestro desarrollador de cabecera.",
         name: "Alex Kleppe",
         role: "CEO — Akahl Style",
+        // Suelta la foto en public/images/avatars/alex.png y aparece sola
+        avatar: "/images/avatars/alex.png",
       },
       {
         quote:
           "Rápido, honesto y detallista. Entendió nuestra marca enseguida y el equipo encontró el portal fácil de usar desde el primer día.",
         name: "Penelope Kleppe",
         role: "CO-CEO — Akahl Style",
+        avatar: "/images/avatars/penelope.png",
       },
       {
         quote:
           "Me elevó por completo la presencia en redes. Profesional, rápido y entiende exactamente lo que una marca de bienes raíces necesita para verse confiable.",
         name: "Alejandra Perez",
         role: "Realtor — Florida",
+        avatar: "/images/avatars/alejandra.png",
       },
     ],
   },
