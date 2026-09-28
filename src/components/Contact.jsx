@@ -11,7 +11,7 @@ export default function Contact() {
   const { contact } = content;
 
   return (
-    <section id="contacto" className="border-t border-slate-800/60 py-24">
+    <section id="contact" className="border-t border-slate-800/60 py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/60 px-6 py-16 text-center sm:px-12">
@@ -49,6 +49,8 @@ export default function Contact() {
                   <Mail className="h-4 w-4" />
                   {LINKS.email}
                 </a>
+
+                <p className="text-xs text-slate-500">{contact.note}</p>
 
                 <div className="flex items-center gap-4 pt-2">
                   <motion.a

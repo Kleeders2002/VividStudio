@@ -18,10 +18,10 @@
   <rect x="170" y="62" width="360" height="20" rx="10" fill="#1e293b"/>
   <!-- Banner premium -->
   <rect x="100" y="125" width="580" height="130" rx="14" fill="url(#hero3)"/>
-  <text x="130" y="175" fill="#f1f5f9" font-size="22" font-weight="700">Akahl Club — Contenido Premium</text>
-  <text x="130" y="205" fill="#cbd5e1" font-size="13">Ebooks y videos exclusivos para suscriptores</text>
+  <text x="130" y="175" fill="#f1f5f9" font-size="22" font-weight="700">Akahl Club — Premium Content</text>
+  <text x="130" y="205" fill="#cbd5e1" font-size="13">Exclusive ebooks & videos for subscribers</text>
   <rect x="530" y="185" width="120" height="38" rx="19" fill="#22d3ee"/>
-  <text x="553" y="209" fill="#0b1220" font-size="13" font-weight="700">Suscribirse</text>
+  <text x="553" y="209" fill="#0b1220" font-size="13" font-weight="700">Subscribe</text>
   <!-- Tarjetas de contenido -->
   <g>
     <rect x="100" y="285" width="180" height="200" rx="12" fill="#111c30" stroke="#1e3a5f"/>

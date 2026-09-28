@@ -122,7 +122,7 @@ export default function Hero() {
               <ArrowRight className="h-4 w-4" />
             </motion.a>
             <motion.a
-              href="#contacto"
+              href="#contact"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-700 bg-slate-900/60 px-7 py-3.5 text-sm font-semibold text-slate-200 backdrop-blur-sm transition-colors hover:border-cyan-400/50 hover:text-cyan-400"

@@ -22,8 +22,9 @@ function LanguageToggle({ compact = false }) {
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const { content, lang } = useLanguage();
-  const links = lang === "en" ? NAV_LINKS_EN : NAV_LINKS_ES;
+  const { content } = useLanguage();
+  // Fuente única de verdad: content.nav.links (según el idioma activo)
+  const links = content.nav.links;
 
   return (
     <motion.header
@@ -55,7 +56,7 @@ export default function Navbar() {
           ))}
           <LanguageToggle />
           <a
-            href="#contacto"
+            href="#contact"
             className="rounded-lg bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-950 transition-colors hover:bg-cyan-300"
           >
             {content.nav.contact}
@@ -69,7 +70,7 @@ export default function Navbar() {
             type="button"
             onClick={() => setOpen(!open)}
             className="rounded-lg p-2 text-slate-300 transition-colors hover:bg-slate-800"
-            aria-label="Abrir menú"
+            aria-label={open ? "Close menu" : "Open menu"}
           >
             {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -90,7 +91,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contacto"
+            href="#contact"
             onClick={() => setOpen(false)}
             className="mt-2 block rounded-lg bg-cyan-400 px-3 py-2.5 text-center text-sm font-semibold text-slate-950 transition-colors hover:bg-cyan-300"
           >
@@ -101,20 +102,3 @@ export default function Navbar() {
     </motion.header>
   );
 }
-
-/* Enlaces de navegación (etiquetas por idioma) */
-const NAV_LINKS_EN = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
-  { label: "Stack", href: "#stack" },
-  { label: "FAQ", href: "#faq" },
-];
-
-const NAV_LINKS_ES = [
-  { label: "Sobre mí", href: "#about" },
-  { label: "Servicios", href: "#services" },
-  { label: "Proyectos", href: "#projects" },
-  { label: "Stack", href: "#stack" },
-  { label: "FAQ", href: "#faq" },
-];

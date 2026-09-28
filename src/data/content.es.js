@@ -4,9 +4,9 @@ import {
   Code2,
   Smartphone,
   Cpu,
-  Radio,
   Layers,
   Gauge,
+  GraduationCap,
   Cloud,
   Server,
   MonitorSmartphone,
@@ -14,6 +14,10 @@ import {
   FileText,
   Rocket,
   LifeBuoy,
+  MessagesSquare,
+  Clock,
+  Zap,
+  ShieldCheck,
 } from "lucide-react";
 
 const content = {
@@ -29,7 +33,7 @@ const content = {
   },
 
   hero: {
-    badge: "Ingeniero en Informática · UCAB · Venezuela",
+    badge: "Ing. en Informática · UCAB · Graduación: Dic 2026",
     titleA: "Vivid",
     titleB: "Studio",
     tagline: "Desarrollo de software, sistemas IoT y aplicaciones a medida",
@@ -42,12 +46,12 @@ const content = {
   about: {
     kicker: "Sobre mí",
     title: "Ingeniería end-to-end, del hardware a la interfaz",
-    text: "Soy Ingeniero en Informática egresado de la UCAB (Universidad Católica Andrés Bello, Venezuela), especializado en desarrollo full-stack y sistemas IoT. Mi Trabajo de Grado fue una plataforma completa de monitoreo IoT — hardware, API, aplicación web y móvil — y refleja cómo trabajo: proyectos completos de punta a punta, construidos a medida y listos para producción.",
-    // TODO: Ajusta los números (value) con tus cifras reales
+    text: "Estoy culminando la Ingeniería en Informática en la UCAB (Universidad Católica Andrés Bello, Venezuela) — me gradúo en diciembre de 2026 — especializado en desarrollo full-stack y sistemas IoT. Mi Trabajo de Grado fue una plataforma completa de monitoreo IoT — hardware, API, app web y móvil, todo construido por mí — y refleja cómo trabajo: proyectos de punta a punta, hechos a medida y listos para producción. Ya también entregué trabajo real para un cliente: un portal B2B de catálogo y un e-commerce por suscripción para una marca de moda.",
+    // Cifras honestas y defendibles en una entrevista. No las infles.
     stats: [
-      { icon: Radio, value: 5, suffix: "+", label: "Años programando", detail: "Hardware · API · Cloud" },
-      { icon: Layers, value: 10, suffix: "+", label: "Proyectos entregados", detail: "Web · Mobile · APIs" },
-      { icon: Gauge, value: 100, suffix: "%", label: "Código a medida", detail: "Sin plantillas, sin atajos" },
+      { icon: Layers, value: 3, suffix: "", label: "Productos construidos de punta a punta", detail: "Web · Mobile · IoT" },
+      { icon: Gauge, value: 100, suffix: "%", label: "Código hecho a medida", detail: "Sin plantillas, sin atajos" },
+      { icon: GraduationCap, value: 2026, suffix: "", label: "Ing. en Informática", detail: "UCAB · pensum IEEE/ACM" },
     ],
   },
 
@@ -120,6 +124,37 @@ const content = {
     ],
   },
 
+  // Promesas concretas de trabajo (reemplaza a los testimonios falsos
+  // hasta tener reseñas reales en Upwork).
+  assurances: {
+    kicker: "Cómo es trabajar conmigo",
+    title: "Lo que puedes esperar",
+    description:
+      "Sin intermediarios ni cajas negras — trabajas directamente con quien escribe el código.",
+    items: [
+      {
+        icon: MessagesSquare,
+        title: "Comunicación directa",
+        text: "Siempre hablas con el desarrollador. Actualizaciones claras por escrito, en español o inglés, para que las decisiones no esperen.",
+      },
+      {
+        icon: Clock,
+        title: "UTC-4 · Horario compatible",
+        text: "Resido en Venezuela, con buen solape con el horario laboral de EE.UU. Respondo en cuestión de horas, no días.",
+      },
+      {
+        icon: Zap,
+        title: "Disponible ahora",
+        text: "Aceptando nuevos proyectos — puedo empezar en cuestión de días, con actualizaciones semanales de avance.",
+      },
+      {
+        icon: ShieldCheck,
+        title: "Todo es tuyo",
+        text: "Código documentado, despliegue y handoff completo. Tu proyecto, tu repositorio, tus datos — con soporte después del lanzamiento.",
+      },
+    ],
+  },
+
   projects: {
     kicker: "Proyectos destacados",
     title: "Casos de estudio reales",
@@ -165,80 +200,48 @@ const content = {
           "Vender contenidos digitales premium requería una pasarela de pagos confiable y control de acceso por suscriptor.",
         solution:
           "E-commerce con suscripciones, integración de pagos, autenticación de usuarios y entrega restringida de contenido premium.",
+        // Honesto: aún no lanza. No digas "monetización activa".
         result:
-          "Monetización recurrente activa: los suscriptores acceden automáticamente al contenido premium tras su pago.",
+          "Plataforma completa lista para lanzamiento — los suscriptores desbloquearán automáticamente el contenido premium tras su pago.",
         tags: ["E-commerce", "Suscripciones", "Pagos", "Contenido premium"],
       },
     ],
   },
 
-  // TODO: Ajusta los períodos/años con tus fechas reales
+  // TODO: ajusta los períodos si no coinciden con tus fechas reales.
   timeline: {
     kicker: "Experiencia",
     title: "Mi camino hasta aquí",
     items: [
       {
-        period: "Año",
+        period: "2021 — 2026",
         title: "Ingeniería en Informática — UCAB",
         description:
-          "Fundamentos de ingeniería de software, arquitectura de sistemas e infraestructura de redes.",
+          "Fundamentos de ingeniería de software, arquitectura de sistemas e infraestructura de redes. Pensum alineado con IEEE/ACM.",
       },
       {
-        period: "Año",
+        period: "2026",
         title: "Trabajo de Grado: Sistema IoT de Monitoreo End-to-End",
         description:
           "Diseñé y construí el stack completo: firmware NodeMCU, API REST, dashboard web y app móvil.",
       },
       {
-        period: "Año",
-        title: "Akahl Catalogue — Entregado",
+        period: "2025 — 2026",
+        title: "Akahl Catalogue — en producción",
         description:
           "Portal de catálogo B2B para telas premium con precios centralizados y búsqueda.",
       },
       {
-        period: "Año",
-        title: "Akahl Club — Lanzado",
+        period: "2026",
+        title: "Akahl Club — construido y entregado",
         description:
-          "E-commerce por suscripción con pasarela de pagos y entrega de contenido premium.",
+          "E-commerce por suscripción con pagos, autenticación y contenido premium — listo para lanzamiento.",
       },
       {
         period: "Hoy",
         title: "Vivid Studio",
         description:
           "Ayudando a clientes de todo el mundo a lanzar software a medida, plataformas web y sistemas IoT.",
-      },
-    ],
-  },
-
-  // TODO: Reemplaza con testimonios reales de clientes cuando los tengas
-  // (las fotos son placeholder de Unsplash — usa fotos reales o elimina el campo avatar)
-  testimonials: {
-    kicker: "Testimonios",
-    title: "Lo que dicen los clientes",
-    items: [
-      {
-        quote:
-          "Trabajar con Vivid Studio fue impecable — entendió los requerimientos rápidamente y entregó antes de lo previsto.",
-        name: "Nombre del cliente",
-        role: "Cargo, Empresa",
-        avatar:
-          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
-      },
-      {
-        quote:
-          "La solución IoT funcionó de punta a punta desde el primer día. Es difícil encontrar alguien que cubra hardware y software.",
-        name: "Nombre del cliente",
-        role: "Cargo, Empresa",
-        avatar:
-          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
-      },
-      {
-        quote:
-          "Comunicación clara, código limpio y plazos honestos. Sin duda trabajaremos juntos de nuevo.",
-        name: "Nombre del cliente",
-        role: "Cargo, Empresa",
-        avatar:
-          "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
       },
     ],
   },
@@ -250,12 +253,12 @@ const content = {
       {
         icon: MonitorSmartphone,
         category: "Frontend",
-        items: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+        items: ["React", "Vite", "Tailwind CSS", "JavaScript (ES6+)"],
       },
       {
         icon: Server,
         category: "Backend & DB",
-        items: ["Node.js", "Express", "PostgreSQL", "MongoDB"],
+        items: ["Node.js", "Express", "REST APIs", "Prisma"],
       },
       {
         icon: Cloud,
@@ -294,6 +297,7 @@ const content = {
     description:
       "Hablemos de cómo convertirlo en un producto funcional. Respondo rápido y trabajo con entregas claras.",
     cta: "Contrátame en Upwork",
+    note: "Suelo responder en cuestión de horas — UTC-4, horario compatible con EE.UU.",
   },
 
   footer: {

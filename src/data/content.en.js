@@ -1,13 +1,15 @@
 /* CONTENIDO EN INGLÉS — idioma por defecto del sitio.
-   TODO: Revisa textos y ajusta el copy final a tu gusto. */
+   NOTA: la sección de testimonios con placeholders falsos se eliminó
+   (mataba la credibilidad). Cuando tengas reseñas reales de Upwork,
+   agrégalas de nuevo con citas verificables. */
 
 import {
   Code2,
   Smartphone,
   Cpu,
-  Radio,
   Layers,
   Gauge,
+  GraduationCap,
   Cloud,
   Server,
   MonitorSmartphone,
@@ -15,6 +17,10 @@ import {
   FileText,
   Rocket,
   LifeBuoy,
+  MessagesSquare,
+  Clock,
+  Zap,
+  ShieldCheck,
 } from "lucide-react";
 
 const content = {
@@ -30,7 +36,7 @@ const content = {
   },
 
   hero: {
-    badge: "Software Engineer · UCAB · Venezuela",
+    badge: "Informatics Engineer · UCAB · Graduating Dec 2026",
     titleA: "Vivid",
     titleB: "Studio",
     tagline: "Software development, IoT systems & custom applications",
@@ -43,12 +49,12 @@ const content = {
   about: {
     kicker: "About me",
     title: "End-to-end engineering, from hardware to interface",
-    text: "I'm a Software Engineer graduated from UCAB (Universidad Católica Andrés Bello, Venezuela), specialized in full-stack development and IoT systems. My thesis project was a complete IoT monitoring platform — hardware, API, web and mobile app — and it captures how I work: end-to-end projects, built from scratch and ready for production.",
-    // TODO: Ajusta los números (value) con tus cifras reales
+    text: "I'm finishing my B.Sc. in Informatics Engineering at UCAB (Universidad Católica Andrés Bello, Venezuela) — graduating December 2026 — specialized in full-stack development and IoT systems. My thesis was a complete IoT monitoring platform — hardware, API, web and mobile app, all built by me — and it captures how I work: end-to-end projects, built from scratch and ready for production. I've already shipped real client work too: a B2B catalogue portal and a subscription e-commerce platform for a fashion brand.",
+    // Cifras honestas y defendibles en una entrevista. No las infles.
     stats: [
-      { icon: Radio, value: 5, suffix: "+", label: "Years coding", detail: "Hardware · API · Cloud" },
-      { icon: Layers, value: 10, suffix: "+", label: "Projects delivered", detail: "Web · Mobile · APIs" },
+      { icon: Layers, value: 3, suffix: "", label: "Products built end-to-end", detail: "Web · Mobile · IoT" },
       { icon: Gauge, value: 100, suffix: "%", label: "Custom-built code", detail: "No templates, no shortcuts" },
+      { icon: GraduationCap, value: 2026, suffix: "", label: "B.Sc. Informatics Engineering", detail: "UCAB · IEEE/ACM-aligned" },
     ],
   },
 
@@ -121,6 +127,37 @@ const content = {
     ],
   },
 
+  // Promesas concretas de trabajo (reemplaza a los testimonios falsos
+  // hasta tener reseñas reales en Upwork).
+  assurances: {
+    kicker: "Working with me",
+    title: "What you can expect",
+    description:
+      "No account managers, no black boxes — you work directly with the person who writes the code.",
+    items: [
+      {
+        icon: MessagesSquare,
+        title: "Direct communication",
+        text: "You always talk to the developer. Clear written updates in English or Spanish, so decisions never wait.",
+      },
+      {
+        icon: Clock,
+        title: "UTC-4 · US-friendly hours",
+        text: "Based in Venezuela, with strong overlap with US business hours. Replies within hours, not days.",
+      },
+      {
+        icon: Zap,
+        title: "Available now",
+        text: "Taking on new projects — I can start within days and commit to weekly progress updates.",
+      },
+      {
+        icon: ShieldCheck,
+        title: "You own everything",
+        text: "Documented code, deployment and full handoff. Your project, your repository, your data — with support after launch.",
+      },
+    ],
+  },
+
   projects: {
     kicker: "Featured projects",
     title: "Real case studies",
@@ -167,80 +204,48 @@ const content = {
           "Selling premium digital content required a reliable payment gateway and per-subscriber access control.",
         solution:
           "Subscription e-commerce with payment integration, user authentication and restricted premium content delivery.",
+        // Honesto: aún no lanza. No digas "revenue up and running".
         result:
-          "Recurring revenue up and running: subscribers automatically get access to premium content after payment.",
+          "A complete platform ready for launch — subscribers will automatically unlock premium content after payment.",
         tags: ["E-commerce", "Subscriptions", "Payments", "Premium content"],
       },
     ],
   },
 
-  // TODO: Ajusta los períodos/años con tus fechas reales
+  // TODO: ajusta los períodos si no coinciden con tus fechas reales.
   timeline: {
     kicker: "Experience",
     title: "My path so far",
     items: [
       {
-        period: "Year",
+        period: "2021 — 2026",
         title: "B.Sc. in Informatics Engineering — UCAB",
         description:
-          "Software engineering fundamentals, systems architecture and network infrastructure.",
+          "Software engineering fundamentals, systems architecture and network infrastructure. IEEE/ACM-aligned curriculum.",
       },
       {
-        period: "Year",
+        period: "2026",
         title: "Thesis: End-to-End IoT Monitoring System",
         description:
           "Designed and built the full stack: NodeMCU firmware, REST API, web dashboard and mobile app.",
       },
       {
-        period: "Year",
-        title: "Akahl Catalogue — Delivered",
+        period: "2025 — 2026",
+        title: "Akahl Catalogue — shipped",
         description:
           "B2B catalog portal for premium fabrics with centralized pricing and search.",
       },
       {
-        period: "Year",
-        title: "Akahl Club — Launched",
+        period: "2026",
+        title: "Akahl Club — built & handed off",
         description:
-          "Subscription e-commerce with payment gateway and premium content delivery.",
+          "Subscription e-commerce with payments, auth and premium content — ready for launch.",
       },
       {
         period: "Today",
         title: "Vivid Studio",
         description:
           "Helping clients worldwide ship custom software, web platforms and IoT systems.",
-      },
-    ],
-  },
-
-  // TODO: Reemplaza con testimonios reales de clientes cuando los tengas
-  // (las fotos son placeholder de Unsplash — usa fotos reales o elimina el campo avatar)
-  testimonials: {
-    kicker: "Testimonials",
-    title: "What clients say",
-    items: [
-      {
-        quote:
-          "Working with Vivid Studio was seamless — requirements were understood quickly and everything was delivered ahead of schedule.",
-        name: "Client Name",
-        role: "Role, Company",
-        avatar:
-          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
-      },
-      {
-        quote:
-          "The IoT solution worked end-to-end from day one. It's rare to find someone who covers both hardware and software.",
-        name: "Client Name",
-        role: "Role, Company",
-        avatar:
-          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
-      },
-      {
-        quote:
-          "Clear communication, clean code and honest timelines. We'll definitely work together again.",
-        name: "Client Name",
-        role: "Role, Company",
-        avatar:
-          "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
       },
     ],
   },
@@ -252,12 +257,12 @@ const content = {
       {
         icon: MonitorSmartphone,
         category: "Frontend",
-        items: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+        items: ["React", "Vite", "Tailwind CSS", "JavaScript (ES6+)"],
       },
       {
         icon: Server,
         category: "Backend & DB",
-        items: ["Node.js", "Express", "PostgreSQL", "MongoDB"],
+        items: ["Node.js", "Express", "REST APIs", "Prisma"],
       },
       {
         icon: Cloud,
@@ -296,6 +301,7 @@ const content = {
     description:
       "Let's talk about how to turn it into a working product. I reply fast and work with clear deliverables.",
     cta: "Hire me on Upwork",
+    note: "Usually replies within a few hours — UTC-4, overlapping US business hours.",
   },
 
   footer: {

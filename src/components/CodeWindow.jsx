@@ -14,7 +14,7 @@ const CODE_LINES = [
   ],
   [
     { t: "  name: ", c: "text-slate-400" },
-    { t: '"Esteban"', c: "text-emerald-300" },
+    { t: '"Kleeders"', c: "text-emerald-300" },
     { t: ",", c: "text-slate-400" },
   ],
   [
