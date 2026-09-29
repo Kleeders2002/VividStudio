@@ -46,7 +46,7 @@ const content = {
   about: {
     kicker: "Sobre mí",
     title: "Ingeniería end-to-end, del hardware a la interfaz",
-    text: "Estoy culminando la Ingeniería en Informática en la UCAB (Universidad Católica Andrés Bello, Venezuela) — me gradúo en diciembre de 2026 — especializado en desarrollo full-stack y sistemas IoT. Mi Trabajo de Grado fue una plataforma completa de monitoreo IoT — hardware, API, app web y móvil, todo construido por mí — y refleja cómo trabajo: proyectos de punta a punta, hechos a medida y listos para producción. Ya también entregué trabajo real para un cliente: un portal B2B de catálogo y un e-commerce por suscripción para una marca de moda.",
+    text: "Estoy culminando la Ingeniería en Informática en la UCAB (Universidad Católica Andrés Bello, Venezuela) — me gradúo en diciembre de 2026 — especializado en desarrollo full-stack y sistemas IoT. Mi Trabajo de Grado, PharmaMonitor, fue una plataforma completa de monitoreo IoT para cadena de frío — firmware, API, web y app móvil, todo construido por mí — validada durante 7 días en una farmacia real con 100% de completitud de datos. Refleja cómo trabajo: proyectos de punta a punta, hechos a medida y listos para producción. Ya también entregué trabajo real para un cliente: un portal B2B de catálogo y un e-commerce por suscripción para una marca de moda.",
     // Cifras honestas y defendibles en una entrevista. No las infles.
     stats: [
       { icon: Layers, value: 3, suffix: "", label: "Productos construidos de punta a punta", detail: "Web · Mobile · IoT" },
@@ -166,17 +166,17 @@ const content = {
     },
     items: [
       {
-        title: "Sistema IoT de Monitoreo",
-        subtitle: "Trabajo de Grado — UCAB",
+        title: "PharmaMonitor — Monitoreo IoT de Cadena de Frío",
+        subtitle: "Trabajo de Grado — UCAB · Nota 19/20",
         description:
-          "Plataforma integral de monitoreo: desde el firmware del microcontrolador hasta la app móvil.",
+          "Plataforma IoT completa para el almacenamiento en frío de fármacos: firmware de microcontrolador, API REST por capas, dashboard web administrativo y app móvil.",
         problem:
-          "Necesidad de monitorear variables físicas en tiempo real sin una solución comercial accesible ni integrada.",
+          "Los medicamentos termolábiles como la insulina aún se vigilan con inspecciones manuales y termómetros analógicos — una desviación de temperatura no detectada puede inutilizar un lote completo.",
         solution:
-          "Diseñé la arquitectura completa: firmware en NodeMCU, API REST propia, dashboard web y app móvil para acceso remoto.",
+          "Diseñé y construí todo el sistema: firmware ESP8266 con sensores DHT22, BMP180 y BH1750 más LEDs RGB de estado, API REST FastAPI de 3 capas sobre PostgreSQL, dashboard administrativo en React.js y app React Native con alertas persistentes — desplegado en Vercel, Render y Neon.",
         result:
-          "Sistema end-to-end funcional que demuestra que puedo entregar hardware, backend, web y móvil en un solo proyecto.",
-        tags: ["NodeMCU", "API REST", "Web App", "Mobile"],
+          "Validado con una prueba piloto de 7 días en una farmacia real monitoreando insulina humana: 1,008 lecturas con 100% de completitud y una alerta crítica real (8.4°C) detectada y notificada en menos de 3 segundos. Costo total del hardware: unos USD 20.",
+        tags: ["ESP8266", "FastAPI", "PostgreSQL", "React", "React Native"],
       },
       {
         title: "Akahl Catalogue",
@@ -220,10 +220,10 @@ const content = {
           "Fundamentos de ingeniería de software, arquitectura de sistemas e infraestructura de redes. Pensum alineado con IEEE/ACM.",
       },
       {
-        period: "2026",
-        title: "Trabajo de Grado: Sistema IoT de Monitoreo End-to-End",
+        period: "2024 — 2026",
+        title: "Trabajo de Grado: PharmaMonitor — Monitoreo IoT de Cadena de Frío",
         description:
-          "Diseñé y construí el stack completo: firmware NodeMCU, API REST, dashboard web y app móvil.",
+          "Diseñé y construí el stack completo: firmware ESP8266, API REST FastAPI, dashboard web y app React Native. Calificado 19/20 por el jurado.",
       },
       {
         period: "2025 — 2026",
@@ -285,17 +285,17 @@ const content = {
       {
         icon: MonitorSmartphone,
         category: "Frontend",
-        items: ["React", "Vite", "Tailwind CSS", "JavaScript (ES6+)"],
+        items: ["React", "React Native (Expo)", "Tailwind CSS", "JavaScript (ES6+)"],
       },
       {
         icon: Server,
         category: "Backend & DB",
-        items: ["Node.js", "Express", "REST APIs", "Prisma", "MySQL", "Oracle SQL"],
+        items: ["Node.js", "Express", "FastAPI (Python)", "PostgreSQL", "Prisma", "MySQL"],
       },
       {
         icon: Cloud,
         category: "IoT & Cloud",
-        items: ["NodeMCU / ESP32", "MQTT", "Firebase", "Vercel"],
+        items: ["ESP8266 / NodeMCU", "Firmware (Arduino)", "Render", "Vercel"],
       },
     ],
   },

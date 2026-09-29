@@ -49,7 +49,7 @@ const content = {
   about: {
     kicker: "About me",
     title: "End-to-end engineering, from hardware to interface",
-    text: "I'm finishing my B.Sc. in Informatics Engineering at UCAB (Universidad Católica Andrés Bello, Venezuela) — graduating December 2026 — specialized in full-stack development and IoT systems. My thesis was a complete IoT monitoring platform — hardware, API, web and mobile app, all built by me — and it captures how I work: end-to-end projects, built from scratch and ready for production. I've already shipped real client work too: a B2B catalogue portal and a subscription e-commerce platform for a fashion brand.",
+    text: "I'm finishing my B.Sc. in Informatics Engineering at UCAB (Universidad Católica Andrés Bello, Venezuela) — graduating December 2026 — specialized in full-stack development and IoT systems. My thesis, PharmaMonitor, was a complete IoT cold-chain monitoring platform — firmware, API, web and mobile app, all built by me — validated for 7 days in a real pharmacy with 100% data completeness. It captures how I work: end-to-end projects, built from scratch and ready for production. I've already shipped real client work too: a B2B catalogue portal and a subscription e-commerce platform for a fashion brand.",
     // Cifras honestas y defendibles en una entrevista. No las infles.
     stats: [
       { icon: Layers, value: 3, suffix: "", label: "Products built end-to-end", detail: "Web · Mobile · IoT" },
@@ -170,17 +170,17 @@ const content = {
     },
     items: [
       {
-        title: "IoT Monitoring System",
-        subtitle: "Thesis project — UCAB",
+        title: "PharmaMonitor — IoT Cold-Chain Monitoring",
+        subtitle: "Thesis project — UCAB · Graded 19/20",
         description:
-          "A complete monitoring platform: from the microcontroller firmware to the mobile app.",
+          "A complete IoT platform for pharmaceutical cold storage: microcontroller firmware, a layered REST API, an admin web dashboard and a mobile app.",
         problem:
-          "The need to monitor physical variables in real time, without an accessible or integrated commercial solution.",
+          "Thermolabile medicines like insulin are still monitored with manual inspections and analog thermometers — a missed temperature excursion can destroy an entire lot.",
         solution:
-          "I designed the full architecture: NodeMCU firmware, a custom REST API, a web dashboard and a mobile app for remote access.",
+          "I designed and built the whole system: ESP8266 firmware with DHT22, BMP180 and BH1750 sensors plus RGB status LEDs, a 3-layer FastAPI REST API over PostgreSQL, a React.js admin dashboard and a React Native app with persistent alerts — deployed on Vercel, Render and Neon.",
         result:
-          "A working end-to-end system proving I can deliver hardware, backend, web and mobile in a single project.",
-        tags: ["NodeMCU", "REST API", "Web App", "Mobile"],
+          "Validated with a 7-day pilot in a real pharmacy monitoring human insulin: 1,008 readings with 100% completeness and a real critical excursion (8.4°C) detected and notified in under 3 seconds. Total hardware cost: about USD 20.",
+        tags: ["ESP8266", "FastAPI", "PostgreSQL", "React", "React Native"],
       },
       {
         title: "Akahl Catalogue",
@@ -224,10 +224,10 @@ const content = {
           "Software engineering fundamentals, systems architecture and network infrastructure. IEEE/ACM-aligned curriculum.",
       },
       {
-        period: "2026",
-        title: "Thesis: End-to-End IoT Monitoring System",
+        period: "2024 — 2026",
+        title: "Thesis: PharmaMonitor — IoT Cold-Chain Monitoring",
         description:
-          "Designed and built the full stack: NodeMCU firmware, REST API, web dashboard and mobile app.",
+          "Designed and built the full stack: ESP8266 firmware, FastAPI REST API, web dashboard and React Native app. Graded 19/20 by the jury.",
       },
       {
         period: "2025 — 2026",
@@ -289,17 +289,17 @@ const content = {
       {
         icon: MonitorSmartphone,
         category: "Frontend",
-        items: ["React", "Vite", "Tailwind CSS", "JavaScript (ES6+)"],
+        items: ["React", "React Native (Expo)", "Tailwind CSS", "JavaScript (ES6+)"],
       },
       {
         icon: Server,
         category: "Backend & DB",
-        items: ["Node.js", "Express", "REST APIs", "Prisma", "MySQL", "Oracle SQL"],
+        items: ["Node.js", "Express", "FastAPI (Python)", "PostgreSQL", "Prisma", "MySQL"],
       },
       {
         icon: Cloud,
         category: "IoT & Cloud",
-        items: ["NodeMCU / ESP32", "MQTT", "Firebase", "Vercel"],
+        items: ["ESP8266 / NodeMCU", "Firmware (Arduino)", "Render", "Vercel"],
       },
     ],
   },
