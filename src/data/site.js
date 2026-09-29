@@ -3,15 +3,16 @@
    ------------------------------------------------------------
    ⚠️ PENDIENTE ANTES DE COMPARTIR EL SITIO (links placeholder → 404):
    1. upwork   → URL real de tu perfil de Upwork
-   2. linkedin → tu perfil real (o elimina el ícono en Contact/Footer)
-   3. github   → tu perfil real (o elimina el ícono en Contact/Footer)
+   2. linkedin → crear el perfil primero (ver CONTEXTO.md §12) y poner
+                 la URL personalizada linkedin.com/in/kleedersortiz
+   ✅ github resuelto (29-sep): github.com/Kleeders2002
    ============================================================ */
 
 export const LINKS = {
   upwork: "https://www.upwork.com/freelancers/TU-PERFIL", // ⚠️ TODO
   email: "kleeders@vividstudio.dev",
   linkedin: "https://www.linkedin.com/in/TU-USUARIO", // ⚠️ TODO
-  github: "https://github.com/TU-USUARIO", // ⚠️ TODO
+  github: "https://github.com/Kleeders2002",
   bazar: "https://bazar.vividstudio.dev",
 };
 

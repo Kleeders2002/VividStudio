@@ -91,11 +91,13 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 ## 7. PENDIENTES CRÍTICOS del sitio (bloquean compartirlo)
 
 1. `src/data/site.js` → `upwork`: sigue como `"https://www.upwork.com/freelancers/TU-PERFIL"` (da 404 — un botón de Upwork roto mata credibilidad).
-2. `src/data/site.js` → `linkedin`: placeholder `TU-USUARIO`.
-3. `src/data/site.js` → `github`: placeholder `TU-USUARIO`.
+2. `src/data/site.js` → `linkedin`: placeholder — primero crear el perfil (sección 12, tarea 3).
+3. ✅ RESUELTO (29-sep): `github` → `https://github.com/Kleeders2002`.
 4. Falta `public/images/avatars/alejandra.png` y `public/images/projects/akahl-club.png`.
 5. Aprobar/reemplazar las 3 citas de testimonios (sección 6).
 6. Después del 3-dic-2026: "graduating" → "graduated".
+
+**Nota GitHub (29-sep):** el perfil existe (16 repos públicos) pero está SIN configurar: sin nombre, sin bio, sin avatar. Pendiente: poner nombre "Kleeders Ortiz", avatar, bio, y fijar (pin) los mejores repos — VividStudio, Akahl-Cataloge, AkahlClub, VividStudioBazar, PharmaMonitor{API,Web,App} (ninguno tiene descripción). **Seguridad/permisos:** los .env.example públicos están limpios ✅ (solo placeholders), PERO falta (a) confirmar con Akahl que sus repos pueden estar públicos y (b) escanear el historial git por .env borrados: `git log --all --full-history -- "*.env"` en cada repo (un secreto borrado sigue vivo en el historial).
 
 ## 8. Correo profesional
 
@@ -115,6 +117,7 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 - **Precios:** 20-30% debajo de la meta los primeros 2-3 proyectos (nunca $5/hora — atrae peores clientes y ancla el precio). Precio FIJO por hitos al inicio. Subir tarifas cada 3-4 proyectos completados.
 - Verificar permiso de Akahl antes de exhibir Akahl Catalogue/Club públicamente en Upwork (un WhatsApp basta).
 - Roadmap financiero: NO renunciar a Akahl todavía (colchón ~$500/mes) hasta que Upwork cubra ~50%+.
+- **Correo de login de Upwork: `kleesteban270@gmail.com` — SIN PROBLEMA (aclarado 29-sep).** El email de login es invisible para clientes y NO participa en la verificación de identidad ni en los pagos; lo que DEBE coincidir exactamente es nombre legal + documento (IDV) + titular del método de pago, todo como "Kleeders Ortiz". No cambiar el email del login ahora (riesgo innecesario de revisión de seguridad con cuenta nueva y sin historial). Activar 2FA en ese Gmail — es la llave maestra de la cuenta. Cambiarlo a kleeders@ más adelante es opcional y trivial desde Settings, cuando la cuenta tenga historial.
 
 ## 10. Estrategia de inglés (definida 28-sep-2026)
 
@@ -137,15 +140,17 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 
 ## 12. Lista maestra de pendientes (orden de prioridad)
 
-1. Llenar los 3 links reales en `src/data/site.js` (Upwork, LinkedIn, GitHub)
-2. Crear buzón `kleeders@vividstudio.dev` (el sitio ya lo muestra)
-3. Upwork: perfil 100% + IDV + badges gratis + Connects + método de pago "Kleeders Ortiz"
-4. Aprobar las 3 citas de testimonios con Alex, Penelope y Alejandra (+ foto de Alejandra)
-5. Primeras propuestas: 4-5/semana (hispanos + inglés escrito), nicho IoT
-6. Inglés 30 min/día
-7. IG de mi novia → "Vivid Studio Bazar"
-8. Revisar a fondo `vividstudiobazar.vercel.app` + definir quién actualiza su catálogo (sitio legitima, IG vende)
-9. `akahl-club.png` screenshot real
-10. Piloto QR + dedicatorias (automatizado) tras validar 5-10 llaveros
-11. Conectar `vividstudio.dev` en Vercel como dominio del portafolio
-12. 3-dic-2026: "graduating" → "graduated" en ambos idiomas
+1. Llenar la URL de Upwork en `src/data/site.js` (GitHub ✅ hecho 29-sep; LinkedIn llega con la tarea 3)
+2. Crear buzón `kleeders@vividstudio.dev` (el sitio ya lo muestra) + activar 2FA en el Gmail personal
+3. **Crear LinkedIn** registrado CON `kleeders@vividstudio.dev` (Gmail personal como correo de recuperación; con ImprovMX las notificaciones llegan solas al Gmail) → URL personalizada `linkedin.com/in/kleedersortiz` → perfil EN INGLÉS: titular propuesto "Software & IoT Developer · I build end-to-end products: hardware, API, web & mobile", about espejo del portafolio, experiencias (Founder Vivid Studio / Web Developer Akahl / Content Editor Akahl), UCAB 2018–2026, skills top 3 fijadas (Full-Stack, IoT, REST APIs), "Open to work" activado, foto headshot (fondo liso, luz frontal) → URL final a `site.js`. Los textos los redacta Claude. Tiempo total: 1-2h, no más
+4. Configurar el perfil de GitHub: nombre "Kleeders Ortiz" + avatar + bio + pinner los mejores repos + descripciones
+5. Upwork: perfil 100% + IDV + badges gratis + Connects + método de pago "Kleeders Ortiz"
+6. Aprobar las 3 citas de testimonios con Alex, Penelope y Alejandra (+ subir foto `alejandra.png`)
+7. Primeras propuestas: 4-5/semana (hispanos + inglés escrito), nicho IoT
+8. Inglés 30 min/día
+9. IG de mi novia → "Vivid Studio Bazar"
+10. Revisar a fondo `vividstudiobazar.vercel.app` + definir quién actualiza su catálogo (sitio legitima, IG vende)
+11. `akahl-club.png` screenshot real + permiso de Akahl para repos públicos + escaneo de historial
+12. Piloto QR + dedicatorias (automatizado) tras validar 5-10 llaveros
+13. Conectar `vividstudio.dev` en Vercel como dominio del portafolio
+14. 3-dic-2026: "graduating" → "graduated" en ambos idiomas
