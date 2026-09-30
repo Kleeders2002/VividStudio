@@ -140,6 +140,19 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 
 ## 12. Lista maestra de pendientes (orden de prioridad)
 
+> **🎯 PLAN DE EJECUCIÓN (acordado la noche del 29-sep-2026):**
+> El portafolio está TERMINADO — no recibe más pulido hasta la primera reseña
+> de Upwork. Cualquier tarea nueva va a este parking lot; **nada se ejecuta
+> hasta enviar la propuesta #1**. Métrica de esta etapa: propuestas
+> enviadas/semana.
+>
+> - **MAÑANA (30-sep):** IDV de Upwork + perfil al 100% — Claude redacta
+>   titular, overview y skills en inglés, solo copiar y pegar.
+> - **Resto de la semana:** buzón `kleeders@` (15 min) → LinkedIn registrado
+>   con ese correo (textos de Claude) → URLs a `site.js` → Connects →
+>   primeras 5 propuestas (hispanos + inglés escrito, nicho IoT).
+> - Recordar: 2FA en kleesteban27@gmail.com (es la llave maestra de Upwork).
+
 1. Llenar la URL de Upwork en `src/data/site.js` (GitHub ✅ hecho 29-sep; LinkedIn llega con la tarea 3)
 2. Crear buzón `kleeders@vividstudio.dev` (el sitio ya lo muestra) + activar 2FA en el Gmail personal
 3. **Crear LinkedIn** registrado CON `kleeders@vividstudio.dev` (Gmail personal como correo de recuperación; con ImprovMX las notificaciones llegan solas al Gmail) → URL personalizada `linkedin.com/in/kleedersortiz` → perfil EN INGLÉS: titular propuesto "Software & IoT Developer · I build end-to-end products: hardware, API, web & mobile", about espejo del portafolio, experiencias (Founder Vivid Studio / Web Developer Akahl / Content Editor Akahl), UCAB 2018–2026, skills top 3 fijadas (Full-Stack, IoT, REST APIs), "Open to work" activado, foto headshot (fondo liso, luz frontal) → URL final a `site.js`. Los textos los redacta Claude. Tiempo total: 1-2h, no más
