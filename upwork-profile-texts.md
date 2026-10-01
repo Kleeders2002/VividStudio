@@ -78,29 +78,38 @@ Repos: github.com/Kleeders2002 (PharmaMonitorAPI / PharmaMonitorWeb / PharmaMoni
 **URL del proyecto:** `https://github.com/Kleeders2002`
 **⚠️ Akahl Catalogue/Club al portfolio: SOLO con permiso previo de Akahl (WhatsApp).**
 
-### Employment history (4 puestos reales — actualizado 1-oct con datos de Kleeders)
+### Employment history (estado REAL al 1-oct — 3 pegadas, 2 por pegar + 1 ajuste)
 
-> Aclaraciones de Kleeders (1-oct): contenido para Akahl desde ENERO 2024; pasantía
-> VIVAX mar–abr 2024 en Caracas, sistema hecho en C# / ASP.NET. Énfasis en Catalogue + Club.
-> Upwork ordena las entradas solo por fechas (más reciente arriba) — el orden manual no influye.
-> Único dato por confirmar: mes exacto de inicio en Catalogue (si no recuerda, usar January).
-
-**1) Founder & Developer — Vivid Studio** · 2026–Present
+**✅ PEGADA — Founder & Developer | Vivid Studio** · August 2026 - Present
 ```
 Freelance studio for web, mobile and IoT products. End-to-end delivery: hardware, API, web and mobile. Portfolio: vividstudio.dev
 ```
 
-**2) Web Developer — Akahl Style** (marca de trajes a medida, Caracas/Miami) · 2025–Present *(mes por confirmar)* — ⭐ entrada a enfatizar
+**⚠️ PEGADA PERO AJUSTAR — Full-Stack / Frontend Web Developer | Akahl Style** · January 2026 - Present
+> Ajustes: (a) falta mencionar Akahl Catalogue (su único producto en PRODUCCIÓN);
+> (b) confirmar año de inicio — CONTEXTO dice Catalogue 2025—2026; si el dev
+> empezó en 2025, cambiar Year y "since 2025" queda verificado. Descripción propuesta:
 ```
-Built Akahl Catalogue — a price-catalog portal for custom suits and fabrics, live in production — and Akahl Club, a Stripe-based subscription e-commerce platform for premium content (ready for launch).
+Built Akahl Catalogue, a price-catalog portal for custom suits and fabrics, live in production since 2025.
+
+Engineered Akahl Club (akahl.club), a digital subscription & e-book platform built with React.js and Tailwind CSS.
+
+Developed user access controls and subscription-gated features, enabling seamless content delivery and secure digital reader experiences.
+
+Managed cloud deployment and infrastructure on Render, optimizing for high uptime, low-latency asset delivery, and fast page loads.
 ```
 
-**3) Content Editor — Akahl Style** · January 2024–Present
+**✅ PEGADA — Full-Stack & IoT Software Engineer | UCAB / PharmaMonitor** · December 2024 - May 2026
+> Texto propio de Kleeders (bullets técnicos: FastAPI/SQLModel/PostgreSQL, JWT, RBAC,
+> React dashboard, React Native Expo, ESP8266 + DHT22/BH1750/BMP180, Render/Vercel/Neon,
+> piloto 7 días, 1,000+ puntos 100% integridad, alerta <3s) — TODO verificado contra tesis. OK.
+
+**❌ FALTA — Content Editor | Akahl Style** · January 2024 - Present
 ```
 Create and edit posts and reels for the brand's social media accounts.
 ```
 
-**4) Software Development Intern — VIVAX** · March–April 2024 · Caracas, Venezuela
+**❌ FALTA — Software Development Intern | VIVAX** · March 2024 - April 2024 · Caracas
 ```
 Two-month internship. Built an internal system for submitting and tracking support requests, developed in C# / ASP.NET.
 ```
