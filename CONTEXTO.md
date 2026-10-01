@@ -1,7 +1,7 @@
 # CONTEXTO COMPLETO — Proyecto Vivid Studio / Vivid Studio Bazar
 
 > **Fuente única de verdad del proyecto.** Si algo estructural cambia, actualizar
-> este archivo y commitear. Última actualización: **29 de septiembre de 2026**.
+> este archivo y commitear. Última actualización: **1 de octubre de 2026**.
 
 ---
 
@@ -105,13 +105,13 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 - Configuración Gmail: Configuración → Cuentas → "Enviar correo como" → Servidor `smtp.mailgun.org`, Puerto `587`, TLS, usuario = correo COMPLETO, contraseña de la sección **"SMTP Credentials"** de Mailgun (NO la API key).
 - Contexto de descartes: Zoho sin plan gratis para Venezuela; Brevo no permite registro desde Venezuela (probable OFAC); SendGrid eliminó su free tier en may-2025.
 - **HECHO:** `esteban@vividstudio.dev` configurado y probado (envío exitoso). Queda como alias secundario, no borrar.
-- **HECHO (1-oct-2026):** `kleeders@vividstudio.dev` creado como correo PRINCIPAL con el mismo stack (alias ImprovMX → Gmail personal + credencial SMTP en Mailgun + "Enviar como" en Gmail, verificado y probado). Cuenta de Google separada "Kleeders Ortiz" con foto de perfil para esa dirección (propagación hasta 24h, confiable Gmail→Gmail). Queda: activar en Gmail "Responder desde la misma dirección a la que se envió el mensaje".
+- **HECHO (1-oct-2026):** `kleeders@vividstudio.dev` creado como correo PRINCIPAL con el mismo stack (alias ImprovMX → Gmail personal + credencial SMTP en Mailgun + "Enviar como" en Gmail, verificado y probado). Cuenta de Google separada "Kleeders Ortiz" con foto de perfil, visibilidad "Cualquier persona" confirmada (1-oct; propagación hasta 24h, confiable Gmail→Gmail). Queda: activar en Gmail "Responder desde la misma dirección a la que se envió el mensaje".
 - **PENDIENTE:** correo de mi novia (`jessica@` o el nombre que decida) usando SU propio Gmail personal — NUNCA Gmail compartido de pareja (mezclaría clientas del Bazar con lo personal).
 - Foto de perfil por dirección: cuenta de Google separada usando la dirección del dominio ("Usar mi dirección de correo actual"), foto visible para todos, propaga hasta 24h, confiable solo Gmail→Gmail. Ya funciona en la app Gmail del teléfono (selector "De:").
 
 ## 9. Upwork (estado al 29-sep-2026)
 
-- Perfil: **"Kleeders Ortiz"**, 80% completo. **Connects: 0 (bloqueo #1 — no puedo aplicar a nada).** Sin IDV. Badges "Availability" y "Boost" apagados (activar, gratis).
+- Perfil: **"Kleeders Ortiz"**, ~80% completo (re-confirmado 1-oct). **Connects: 0 (bloqueo #1 — no puedo aplicar a nada).** Sin IDV (re-confirmado 1-oct — sigue siendo la tarea #1). Badges "Availability" y "Boost" apagados (activar, gratis). Textos listos para copiar y pegar en `upwork-profile-texts.md`.
 - Pendientes: perfil al 100% + IDV (coincidir con "Kleeders Ortiz") + badges + Connects (paquete mínimo) + método de pago registrado EXACTAMENTE como "Kleeders Ortiz".
 - **Posicionamiento:** nicho **IoT / full-stack end-to-end** (hardware→API→web→móvil) — mucha menos competencia que "React developer" y paga mejor. El TG es el caso de estudio principal. NO competir en web genérica.
 - **Precios:** 20-30% debajo de la meta los primeros 2-3 proyectos (nunca $5/hora — atrae peores clientes y ancla el precio). Precio FIJO por hitos al inicio. Subir tarifas cada 3-4 proyectos completados.
@@ -140,18 +140,19 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 
 ## 12. Lista maestra de pendientes (orden de prioridad)
 
-> **🎯 PLAN DE EJECUCIÓN (acordado la noche del 29-sep-2026):**
+> **🎯 PLAN DE EJECUCIÓN (acordado 29-sep; estado real al 1-oct):**
 > El portafolio está TERMINADO — no recibe más pulido hasta la primera reseña
 > de Upwork. Cualquier tarea nueva va a este parking lot; **nada se ejecuta
 > hasta enviar la propuesta #1**. Métrica de esta etapa: propuestas
 > enviadas/semana.
 >
-> - **MAÑANA (30-sep):** IDV de Upwork + perfil al 100% — Claude redacta
->   titular, overview y skills en inglés, solo copiar y pegar.
-> - **Resto de la semana:** buzón `kleeders@` (15 min) → LinkedIn registrado
->   con ese correo (textos de Claude) → URLs a `site.js` → Connects →
->   primeras 5 propuestas (hispanos + inglés escrito, nicho IoT).
-> - Recordar: 2FA en kleesteban27@gmail.com (es la llave maestra de Upwork).
+> - **HECHO 1-oct:** buzón `kleeders@vividstudio.dev` creado y probado +
+>   cuenta Google con foto pública confirmada. 2FA del Gmail: sigue pendiente.
+> - **HOY/PRÓXIMO:** IDV de Upwork (la tarea del 30-sep NO se ejecutó — sigue
+>   siendo #1) + perfil al 100% pegando los textos de `upwork-profile-texts.md`.
+> - **Después:** badges gratis → Connects (paquete mínimo) → LinkedIn con el
+>   correo nuevo (textos de Claude) → URLs a `site.js` → primeras 5 propuestas
+>   (hispanos + inglés escrito, nicho IoT).
 
 1. Llenar la URL de Upwork en `src/data/site.js` (GitHub ✅ hecho 29-sep; LinkedIn llega con la tarea 3)
 2. ✅ HECHO (1-oct): buzón `kleeders@vividstudio.dev` creado y probado (el sitio ya lo muestra). Falta la otra mitad del pendiente: activar 2FA en el Gmail personal
