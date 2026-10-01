@@ -111,7 +111,9 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 
 ## 9. Upwork (estado al 29-sep-2026)
 
-- Perfil: **"Kleeders Ortiz"**, ~80% completo (re-confirmado 1-oct). **Connects: 0 (bloqueo #1 — no puedo aplicar a nada).** Sin IDV (re-confirmado 1-oct — sigue siendo la tarea #1). Badges "Availability" y "Boost" apagados (activar, gratis). Textos listos para copiar y pegar en `upwork-profile-texts.md`.
+- Perfil: **"Kleeders Ortiz"**, ~80% completo (re-confirmado 1-oct). **Connects: 0 (bloqueo #1 — no puedo aplicar a nada).** Sin IDV (re-confirmado 1-oct). Badges "Availability" y "Boost" apagados (activar, gratis). Textos listos para copiar y pegar en `upwork-profile-texts.md`.
+- **Costos reales (verificados 1-oct):** badge "Identity Verified" = 35 Connects (~$5.25); la verificación de compliance es gratis pero solo la activa Upwork cuando quiere. Connects a $0.15/c/u — paquetes: 20/$3 · 40/$6 · 100/$15. Propuesta promedio: ~8-16 connects. **Estrategia: UNA compra de 100 Connects ($15) el día que el perfil esté al 100% → 35 van al badge IDV + ~65 rinden las primeras 4-5 propuestas.** Nada se compra antes. (Freelancer Plus $19.99/mes trae 100 Connects/mes — evaluar solo después de las primeras reseñas, es gasto recurrente.)
+- **Payoneer (pendiente 1-oct):** es el método para COBRAR — registrarlo EXACTAMENTE como "Kleeders Ortiz". Gratis, la aprobación tarda días → crearlo YA. OJO: Payoneer NO sirve para comprar Connects; para eso hace falta tarjeta internacional o PayPal (por confirmar cuál tiene Kleeders).
 - Pendientes: perfil al 100% + IDV (coincidir con "Kleeders Ortiz") + badges + Connects (paquete mínimo) + método de pago registrado EXACTAMENTE como "Kleeders Ortiz".
 - **Posicionamiento:** nicho **IoT / full-stack end-to-end** (hardware→API→web→móvil) — mucha menos competencia que "React developer" y paga mejor. El TG es el caso de estudio principal. NO competir en web genérica.
 - **Precios:** 20-30% debajo de la meta los primeros 2-3 proyectos (nunca $5/hora — atrae peores clientes y ancla el precio). Precio FIJO por hitos al inicio. Subir tarifas cada 3-4 proyectos completados.
@@ -158,7 +160,7 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 2. ✅ HECHO (1-oct): buzón `kleeders@vividstudio.dev` creado y probado (el sitio ya lo muestra). Falta la otra mitad del pendiente: activar 2FA en el Gmail personal
 3. **Crear LinkedIn** registrado CON `kleeders@vividstudio.dev` (Gmail personal como correo de recuperación; con ImprovMX las notificaciones llegan solas al Gmail) → URL personalizada `linkedin.com/in/kleedersortiz` → perfil EN INGLÉS: titular propuesto "Software & IoT Developer · I build end-to-end products: hardware, API, web & mobile", about espejo del portafolio, experiencias (Founder Vivid Studio / Web Developer Akahl / Content Editor Akahl), UCAB 2018–2026, skills top 3 fijadas (Full-Stack, IoT, REST APIs), "Open to work" activado, foto headshot (fondo liso, luz frontal) → URL final a `site.js`. Los textos los redacta Claude. Tiempo total: 1-2h, no más
 4. Configurar el perfil de GitHub: nombre "Kleeders Ortiz" + avatar + bio con link al portafolio + repo de perfil (Kleeders2002/Kleeders2002 con README) + pinner PharmaMonitorAPI/Web/App, Akahl-Cataloge, AkahlClub, VividStudio + README profesional en cada repo (la tesis trae capturas listas en los Apéndices H/I)
-5. Upwork: perfil 100% + IDV + badges gratis + Connects + método de pago "Kleeders Ortiz"
+5. Upwork: perfil 100% (textos en `upwork-profile-texts.md`) → compra única de 100 Connects $15 (35 → badge IDV, resto → propuestas) + badges gratis + Payoneer de cobro "Kleeders Ortiz" (pendiente de crear, gratis)
 6. Aprobar las 3 citas de testimonios con Alex, Penelope y Alejandra (+ subir foto `alejandra.png`)
 7. Primeras propuestas: 4-5/semana (hispanos + inglés escrito), nicho IoT
 8. Inglés 30 min/día
