@@ -47,12 +47,77 @@ Tailwind CSS, JavaScript, Full-Stack Development
 ```
 (Si algún tag no existe exacto en Upwork —los nombres varían—, elige el más cercano. Top 3 fijadas: IoT, React, REST API.)
 
+## Portfolio / Employment / Education (secciones que faltan al 1-oct)
+
+> Estado del perfil al 1-oct: 80% completo — ya hechos: foto, overview, skills.
+> Portfolio solo vale +20% → llega a 100% de una vez, pero llenar también empleo
+> y educación porque un perfil sin historial se ve vacío. SKIP: video introduction
+> (expone el inglés hablado), certifications y other experiences (nada real).
+
+### Portfolio → proyecto (agregar HOY)
+
+**Título:** `PharmaMonitor — IoT Environmental Monitoring System`
+
+**Descripción:**
+```
+End-to-end IoT system that monitors storage conditions for pharmaceuticals.
+
+ESP8266 firmware (DHT22, BMP180, BH1750, WS2811 LEDs) talks to a FastAPI REST
+API (3-layer API-Led architecture) on PostgreSQL. Data is visualized in a React
+web dashboard and a React Native mobile app with persistent local notifications.
+
+Validated with a 7-day pilot in a real pharmacy monitoring insulin storage:
+1,008 readings with 100% completeness, and a critical temperature excursion was
+detected and notified in under 3 seconds. Graded 19/20 by the university jury.
+
+Repos: github.com/Kleeders2002 (PharmaMonitorAPI / PharmaMonitorWeb / PharmaMonitorApp)
+```
+
+**Imágenes:** las capturas de los Apéndices H/I de la tesis + la foto del hardware
+(`public/images/projects/proyecto-iot.png` de este repo ya sirve).
+**URL del proyecto:** `https://github.com/Kleeders2002`
+**⚠️ Akahl Catalogue/Club al portfolio: SOLO con permiso previo de Akahl (WhatsApp).**
+
+### Employment history (3 puestos reales)
+
+**1) Founder & Developer — Vivid Studio** · 2026–Present
+```
+Freelance studio for web, mobile and IoT products. End-to-end delivery: hardware, API, web and mobile. Portfolio: vividstudio.dev
+```
+
+**2) Web Developer — Akahl Style** (marca de trajes a medida, Caracas/Miami) · 2025–Present *(ajustar fecha real de inicio)*
+```
+Built Akahl Catalogue, a production price-catalog portal for custom suits and fabrics, and Akahl Club, a Stripe-based subscription e-commerce platform for premium content (ready for launch).
+```
+
+**3) Content Editor — Akahl Style** · 2025–Present *(ajustar fecha real de inicio)*
+```
+Edit posts and reels for the brand's social media accounts.
+```
+
+### Education
+
+**School:** Universidad Católica Andrés Bello (UCAB)
+**Degree:** B.Sc. in Computer Engineering (Ingeniería en Informática) · 2018–2026
+**Description:**
+```
+Thesis: PharmaMonitor — IoT system and web platforms for automated environmental control in pharmaceutical storage. Graded 19/20. Graduating December 2026.
+```
+
+### Linked accounts (después de limpiar GitHub — pendiente #4 de CONTEXTO.md)
+
+Antes de conectar GitHub en Upwork, 10 min de limpieza: nombre "Kleeders Ortiz" +
+avatar (misma headshot) + bio + pin de repos. Un GitHub sin cara espanta más de lo
+que suma el +10%.
+
 ## Checklist al pegar (en orden)
 
 1. Título + Overview + Skills + Rate ($15/hr) → perfil al 100%.
 2. Foto: misma headshot que se usará en LinkedIn (fondo liso, luz frontal).
 3. Portfolio: agregar PharmaMonitor (repos API/Web/App) y Akahl Catalogue — **con permiso previo de Akahl por WhatsApp**.
-4. Badges "Availability" y "Boost": activar (gratis).
-5. Payoneer de cobro: crear YA (gratis, aprueba en días) — registrar EXACTAMENTE como **"Kleeders Ortiz"**.
-6. **Compra única (solo cuando el perfil esté 100%): 100 Connects = $15** → 35 van al badge "Identity Verified" (el IDV no tiene vía gratis on-demand) + ~65 rinden las primeras 4-5 propuestas. El IDV JAMÁS justifica una compra por sí solo.
-7. Para pagar los Connects: tarjeta internacional o PayPal (Payoneer no sirve aquí) — resolver logística ANTES del día de la compra.
+4. Employment history + Education + Working style (assessment de 2 min).
+5. SKIP a propósito: video introduction (inglés hablado), certifications, other experiences.
+6. Badges "Availability" y "Boost": activar (gratis).
+7. Payoneer de cobro: crear YA (gratis, aprueba en días) — registrar EXACTAMENTE como **"Kleeders Ortiz"**.
+8. **Compra única (solo cuando el perfil esté 100%): 100 Connects = $15** → 35 van al badge "Identity Verified" (el IDV no tiene vía gratis on-demand) + ~65 rinden las primeras 4-5 propuestas. El IDV JAMÁS justifica una compra por sí solo.
+9. Para pagar los Connects: tarjeta internacional o PayPal (Payoneer no sirve aquí) — resolver logística ANTES del día de la compra.
