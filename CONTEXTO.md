@@ -105,7 +105,7 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 - Configuración Gmail: Configuración → Cuentas → "Enviar correo como" → Servidor `smtp.mailgun.org`, Puerto `587`, TLS, usuario = correo COMPLETO, contraseña de la sección **"SMTP Credentials"** de Mailgun (NO la API key).
 - Contexto de descartes: Zoho sin plan gratis para Venezuela; Brevo no permite registro desde Venezuela (probable OFAC); SendGrid eliminó su free tier en may-2025.
 - **HECHO:** `esteban@vividstudio.dev` configurado y probado (envío exitoso). Queda como alias secundario, no borrar.
-- **PENDIENTE:** crear **`kleeders@vividstudio.dev` como correo PRINCIPAL** (mismo proceso). ⚠️ El sitio ya muestra kleeders@ — crear el buzón YA o los correos se pierden.
+- **HECHO (1-oct-2026):** `kleeders@vividstudio.dev` creado como correo PRINCIPAL con el mismo stack (alias ImprovMX → Gmail personal + credencial SMTP en Mailgun + "Enviar como" en Gmail, verificado y probado). Cuenta de Google separada "Kleeders Ortiz" con foto de perfil para esa dirección (propagación hasta 24h, confiable Gmail→Gmail). Queda: activar en Gmail "Responder desde la misma dirección a la que se envió el mensaje".
 - **PENDIENTE:** correo de mi novia (`jessica@` o el nombre que decida) usando SU propio Gmail personal — NUNCA Gmail compartido de pareja (mezclaría clientas del Bazar con lo personal).
 - Foto de perfil por dirección: cuenta de Google separada usando la dirección del dominio ("Usar mi dirección de correo actual"), foto visible para todos, propaga hasta 24h, confiable solo Gmail→Gmail. Ya funciona en la app Gmail del teléfono (selector "De:").
 
@@ -154,7 +154,7 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 > - Recordar: 2FA en kleesteban27@gmail.com (es la llave maestra de Upwork).
 
 1. Llenar la URL de Upwork en `src/data/site.js` (GitHub ✅ hecho 29-sep; LinkedIn llega con la tarea 3)
-2. Crear buzón `kleeders@vividstudio.dev` (el sitio ya lo muestra) + activar 2FA en el Gmail personal
+2. ✅ HECHO (1-oct): buzón `kleeders@vividstudio.dev` creado y probado (el sitio ya lo muestra). Falta la otra mitad del pendiente: activar 2FA en el Gmail personal
 3. **Crear LinkedIn** registrado CON `kleeders@vividstudio.dev` (Gmail personal como correo de recuperación; con ImprovMX las notificaciones llegan solas al Gmail) → URL personalizada `linkedin.com/in/kleedersortiz` → perfil EN INGLÉS: titular propuesto "Software & IoT Developer · I build end-to-end products: hardware, API, web & mobile", about espejo del portafolio, experiencias (Founder Vivid Studio / Web Developer Akahl / Content Editor Akahl), UCAB 2018–2026, skills top 3 fijadas (Full-Stack, IoT, REST APIs), "Open to work" activado, foto headshot (fondo liso, luz frontal) → URL final a `site.js`. Los textos los redacta Claude. Tiempo total: 1-2h, no más
 4. Configurar el perfil de GitHub: nombre "Kleeders Ortiz" + avatar + bio con link al portafolio + repo de perfil (Kleeders2002/Kleeders2002 con README) + pinner PharmaMonitorAPI/Web/App, Akahl-Cataloge, AkahlClub, VividStudio + README profesional en cada repo (la tesis trae capturas listas en los Apéndices H/I)
 5. Upwork: perfil 100% + IDV + badges gratis + Connects + método de pago "Kleeders Ortiz"
