@@ -49,10 +49,10 @@ Tailwind CSS, JavaScript, Full-Stack Development
 
 ## Checklist al pegar (en orden)
 
-1. **IDV primero** — sin IDV muchas búsquedas de trabajo están ocultas y es el riesgo #1 de la cuenta.
-2. Título + Overview + Skills + Rate ($15/hr).
-3. Foto: misma headshot que se usará en LinkedIn (fondo liso, luz frontal).
-4. Portfolio: agregar PharmaMonitor (repos API/Web/App) y Akahl Catalogue — **con permiso previo de Akahl por WhatsApp**.
-5. Badges "Availability" y "Boost": activar (gratis).
-6. Método de pago: registrar EXACTAMENTE como **"Kleeders Ortiz"** (igual que IDV y cédula).
-7. Connects: comprar el paquete mínimo recién cuando el perfil esté 100%.
+1. Título + Overview + Skills + Rate ($15/hr) → perfil al 100%.
+2. Foto: misma headshot que se usará en LinkedIn (fondo liso, luz frontal).
+3. Portfolio: agregar PharmaMonitor (repos API/Web/App) y Akahl Catalogue — **con permiso previo de Akahl por WhatsApp**.
+4. Badges "Availability" y "Boost": activar (gratis).
+5. Payoneer de cobro: crear YA (gratis, aprueba en días) — registrar EXACTAMENTE como **"Kleeders Ortiz"**.
+6. **Compra única (solo cuando el perfil esté 100%): 100 Connects = $15** → 35 van al badge "Identity Verified" (el IDV no tiene vía gratis on-demand) + ~65 rinden las primeras 4-5 propuestas. El IDV JAMÁS justifica una compra por sí solo.
+7. Para pagar los Connects: tarjeta internacional o PayPal (Payoneer no sirve aquí) — resolver logística ANTES del día de la compra.
