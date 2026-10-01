@@ -80,29 +80,29 @@ Repos: github.com/Kleeders2002 (PharmaMonitorAPI / PharmaMonitorWeb / PharmaMoni
 
 ### Employment history (4 puestos reales — actualizado 1-oct con datos de Kleeders)
 
-> Aclaraciones de Kleeders (1-oct): contenido para Akahl DESDE 2024 y pasantía en
-> VIVAX (mar–abr 2024, sistema de solicitudes de soporte). Énfasis en Catalogue + Club.
-> Pendiente de confirmar: mes exacto de inicio en Catalogue, mes de inicio de contenido
-> en 2024, ciudad de VIVAX y stack del sistema de soporte.
+> Aclaraciones de Kleeders (1-oct): contenido para Akahl desde ENERO 2024; pasantía
+> VIVAX mar–abr 2024 en Caracas, sistema hecho en C# / ASP.NET. Énfasis en Catalogue + Club.
+> Upwork ordena las entradas solo por fechas (más reciente arriba) — el orden manual no influye.
+> Único dato por confirmar: mes exacto de inicio en Catalogue (si no recuerda, usar January).
 
 **1) Founder & Developer — Vivid Studio** · 2026–Present
 ```
 Freelance studio for web, mobile and IoT products. End-to-end delivery: hardware, API, web and mobile. Portfolio: vividstudio.dev
 ```
 
-**2) Web Developer — Akahl Style** (marca de trajes a medida, Caracas/Miami) · 2025–Present *(poner mes real)* — ⭐ entrada a enfatizar
+**2) Web Developer — Akahl Style** (marca de trajes a medida, Caracas/Miami) · 2025–Present *(mes por confirmar)* — ⭐ entrada a enfatizar
 ```
 Built Akahl Catalogue — a price-catalog portal for custom suits and fabrics, live in production — and Akahl Club, a Stripe-based subscription e-commerce platform for premium content (ready for launch).
 ```
 
-**3) Content Editor — Akahl Style** · 2024–Present *(poner mes real)*
+**3) Content Editor — Akahl Style** · January 2024–Present
 ```
 Create and edit posts and reels for the brand's social media accounts.
 ```
 
-**4) Software Development Intern — VIVAX** · mar–abr 2024 *(falta ciudad y stack)*
+**4) Software Development Intern — VIVAX** · March–April 2024 · Caracas, Venezuela
 ```
-Two-month internship. Built an internal system for submitting and tracking support requests.
+Two-month internship. Built an internal system for submitting and tracking support requests, developed in C# / ASP.NET.
 ```
 
 ### Education
