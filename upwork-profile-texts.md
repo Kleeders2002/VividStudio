@@ -80,6 +80,11 @@ Repos: github.com/Kleeders2002 (PharmaMonitorAPI / PharmaMonitorWeb / PharmaMoni
 
 ### Employment history (estado REAL al 1-oct — 3 pegadas, 2 por pegar + 1 ajuste)
 
+> **DECISIÓN (1-oct): NO dividir Akahl en 2 entradas de empleo.** Employment va por
+> empleador; dos entradas de la misma empresa con fechas encimadas se ve inflado y no
+> da más % (las +10% son una sola vez). El énfasis en los 2 sistemas se logra en el
+> **Portfolio**: una tarjeta para Catalogue y otra para Club — con permiso previo de Akahl.
+
 **✅ PEGADA — Founder & Developer | Vivid Studio** · August 2026 - Present
 ```
 Freelance studio for web, mobile and IoT products. End-to-end delivery: hardware, API, web and mobile. Portfolio: vividstudio.dev
