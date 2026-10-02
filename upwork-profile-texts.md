@@ -78,46 +78,18 @@ Repos: github.com/Kleeders2002 (PharmaMonitorAPI / PharmaMonitorWeb / PharmaMoni
 **URL del proyecto:** `https://github.com/Kleeders2002`
 **⚠️ Akahl Catalogue/Club al portfolio: SOLO con permiso previo de Akahl (WhatsApp).**
 
-### Employment history (estado REAL al 1-oct — 3 pegadas, 2 por pegar + 1 ajuste)
+### Employment history (✅ COMPLETA — 5 entradas pegadas y confirmadas 1-oct)
 
 > **DECISIÓN (1-oct): NO dividir Akahl en 2 entradas de empleo.** Employment va por
 > empleador; dos entradas de la misma empresa con fechas encimadas se ve inflado y no
 > da más % (las +10% son una sola vez). El énfasis en los 2 sistemas se logra en el
 > **Portfolio**: una tarjeta para Catalogue y otra para Club — con permiso previo de Akahl.
 
-**✅ PEGADA — Founder & Developer | Vivid Studio** · August 2026 - Present
-```
-Freelance studio for web, mobile and IoT products. End-to-end delivery: hardware, API, web and mobile. Portfolio: vividstudio.dev
-```
-
-**⚠️ PEGADA PERO AJUSTAR — Full-Stack / Frontend Web Developer | Akahl Style** · January 2026 - Present
-> Ajustes: (a) falta mencionar Akahl Catalogue (su único producto en PRODUCCIÓN);
-> (b) confirmar año de inicio — CONTEXTO dice Catalogue 2025—2026; si el dev
-> empezó en 2025, cambiar Year y "since 2025" queda verificado. Descripción propuesta:
-```
-Built Akahl Catalogue, a price-catalog portal for custom suits and fabrics, live in production since 2025.
-
-Engineered Akahl Club (akahl.club), a digital subscription & e-book platform built with React.js and Tailwind CSS.
-
-Developed user access controls and subscription-gated features, enabling seamless content delivery and secure digital reader experiences.
-
-Managed cloud deployment and infrastructure on Render, optimizing for high uptime, low-latency asset delivery, and fast page loads.
-```
-
-**✅ PEGADA — Full-Stack & IoT Software Engineer | UCAB / PharmaMonitor** · December 2024 - May 2026
-> Texto propio de Kleeders (bullets técnicos: FastAPI/SQLModel/PostgreSQL, JWT, RBAC,
-> React dashboard, React Native Expo, ESP8266 + DHT22/BH1750/BMP180, Render/Vercel/Neon,
-> piloto 7 días, 1,000+ puntos 100% integridad, alerta <3s) — TODO verificado contra tesis. OK.
-
-**❌ FALTA — Content Editor | Akahl Style** · January 2024 - Present
-```
-Create and edit posts and reels for the brand's social media accounts.
-```
-
-**❌ FALTA — Software Development Intern | VIVAX** · March 2024 - April 2024 · Caracas
-```
-Two-month internship. Built an internal system for submitting and tracking support requests, developed in C# / ASP.NET.
-```
+1. **Founder & Developer | Vivid Studio** · August 2026 - Present ✅
+2. **Full-Stack / Frontend Web Developer | Akahl Style** · January 2026 - Present ✅ — 5 bullets: Catalogue ("live in production", sin fecha) + Club (akahl.club, React/Tailwind, access controls, Render, updates). Nota: fecha elegida por Kleeders; CONTEXTO dice Catalogue 2025—2026 — pendiente aclarar si arrancó en 2025 (si sí, cambiar Year a 2025 = +1 año de experiencia visible).
+3. **Content Editor | Akahl Style** · January 2024 - Present ✅
+4. **Full-Stack & IoT Software Engineer | UCAB / PharmaMonitor** · December 2024 - May 2026 ✅ — bullets técnicos (FastAPI/SQLModel/PostgreSQL, JWT, RBAC, React dashboard, React Native Expo, ESP8266 + DHT22/BH1750/BMP180, Render/Vercel/Neon, piloto 7 días, 1,000+ puntos 100% integridad, alerta <3s) verificados contra tesis.
+5. **Software Development Intern | Laboratorios Vivax Pharmaceuticals C.A.** · February 2024 - April 2024 ✅ — Caracas; sistema de solicitudes de soporte en C# / ASP.NET.
 
 ### Education
 
