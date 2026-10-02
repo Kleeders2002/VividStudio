@@ -111,7 +111,7 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 
 ## 9. Upwork (estado al 29-sep-2026)
 
-- Perfil: **"Kleeders Ortiz"**, **90% completo (1-oct)**: hechos foto, overview, skills y **Employment history completa — 5 entradas** (+10). Falta para 100%: **Portfolio (+20, PharmaMonitor HOY — textos listos)**, Education (+10, texto dado — por confirmar si se pegó), Linked accounts (+10, solo tras limpiar GitHub). **SKIP a propósito:** video introduction (expone inglés hablado), certifications y other experiences (nada real que inventar). Working style: 2 min, sí hacerlo. **Connects: 0 (bloqueo #1).** Sin IDV. Badges "Availability" y "Boost" apagados (activar, gratis). Todos los textos para copiar/pegar: `upwork-profile-texts.md`.
+- Perfil: **"Kleeders Ortiz"**, **100% COMPLETO ✅ (1-oct)** — foto, overview, skills, Employment history (5 entradas: Vivid Studio · Akahl Dev · PharmaMonitor/UCAB · Content Editor · Laboratorios Vivax) y Education (UCAB 2018–2026, tesis 19/20). OJO: Upwork dio 100% SIN Portfolio — el Portfolio (+20% opcional) sigue pendiente y es lo que más convierte clientes: tarjeta PharmaMonitor YA (textos listos) + tarjetas de Catalogue/Club SOLO con permiso de Akahl. Working style (2 min, opcional): pendiente. Linked accounts: solo tras limpiar GitHub. **SKIP definitivo:** video intro (inglés hablado), certifications, other experiences. ⚠️ Verificar que el Overview pegado sea el nuevo (primera línea "I build complete products…"). ⚠️ Rol Akahl quedó ene-2026 — aclarar si Catalogue arrancó en 2025 (+1 año visible). **Connects: 0 (bloqueo #1).** Sin IDV (compra única $15 pendiente). Badges "Availability" y "Boost" apagados (activar, gratis). Textos: `upwork-profile-texts.md`.
 - **Costos reales (verificados 1-oct):** badge "Identity Verified" = 35 Connects (~$5.25); la verificación de compliance es gratis pero solo la activa Upwork cuando quiere. Connects a $0.15/c/u — paquetes: 20/$3 · 40/$6 · 100/$15. Propuesta promedio: ~8-16 connects. **Estrategia: UNA compra de 100 Connects ($15) el día que el perfil esté al 100% → 35 van al badge IDV + ~65 rinden las primeras 4-5 propuestas.** Nada se compra antes. (Freelancer Plus $19.99/mes trae 100 Connects/mes — evaluar solo después de las primeras reseñas, es gasto recurrente.)
 - **Payoneer (pendiente 1-oct):** es el método para COBRAR — registrarlo EXACTAMENTE como "Kleeders Ortiz". Gratis, la aprobación tarda días → crearlo YA. OJO: Payoneer NO sirve para comprar Connects.
 - **Métodos para PAGAR los Connects (confirmado 1-oct):** Kleeders tiene (a) tarjeta prepagada MasterCard de Binance, (b) tarjeta Zinli (Visa prepagada), (c) PayPal. Upwork dice oficialmente que acepta prepagadas para Connects, pero en la práctica a veces rechaza — **orden de intento: Zinli 🥇 (combo clásico VE: USDT Binance → Zinli → Upwork) → Binance 🥈 → PayPal 🥉 (Upwork exige tarjeta de crédito real como respaldo con PayPal, probablemente no sirva sola).** Reglas: cargar ~$17-18 (fees/retenciones), datos de facturación = "Kleeders Ortiz" + dirección real, si rechaza NO reintentar 5 veces (cambiar de tarjeta), elegir USD si pregunta moneda. **Tarea: agregar la Zinli como método de facturación ANTES del día de compra (agregar es gratis).**
@@ -149,19 +149,22 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 > hasta enviar la propuesta #1**. Métrica de esta etapa: propuestas
 > enviadas/semana.
 >
-> - **HECHO 1-oct:** buzón `kleeders@vividstudio.dev` creado y probado +
->   cuenta Google con foto pública confirmada. 2FA del Gmail: sigue pendiente.
-> - **HOY/PRÓXIMO:** IDV de Upwork (la tarea del 30-sep NO se ejecutó — sigue
->   siendo #1) + perfil al 100% pegando los textos de `upwork-profile-texts.md`.
-> - **Después:** badges gratis → Connects (paquete mínimo) → LinkedIn con el
->   correo nuevo (textos de Claude) → URLs a `site.js` → primeras 5 propuestas
->   (hispanos + inglés escrito, nicho IoT).
+> - **HECHO 1-oct:** buzón `kleeders@vividstudio.dev` + cuenta Google con foto
+>   pública + **PERFIL UPWORK AL 100%** (employment ×5 + education).
+> - **MAÑANA (2-oct):** tarjeta Portfolio de PharmaMonitor (textos listos) +
+>   Working style (2 min) → Payoneer de cobro → Zinli agregada como método de
+>   facturación (gratis) → badges gratis → **compra única 100 Connects $15 →
+>   badge IDV** → con connects: primeras propuestas.
+> - **Resto de la semana:** LinkedIn con kleeders@ (textos de Claude) → URLs a
+>   `site.js` → primeras 5 propuestas (hispanos + inglés escrito, nicho IoT).
+> - Recordar: 2FA en el Gmail personal (sigue pendiente) + WhatsApp a Akahl por
+>   el permiso de las tarjetas de Catalogue/Club.
 
 1. Llenar la URL de Upwork en `src/data/site.js` (GitHub ✅ hecho 29-sep; LinkedIn llega con la tarea 3)
 2. ✅ HECHO (1-oct): buzón `kleeders@vividstudio.dev` creado y probado (el sitio ya lo muestra). Falta la otra mitad del pendiente: activar 2FA en el Gmail personal
 3. **Crear LinkedIn** registrado CON `kleeders@vividstudio.dev` (Gmail personal como correo de recuperación; con ImprovMX las notificaciones llegan solas al Gmail) → URL personalizada `linkedin.com/in/kleedersortiz` → perfil EN INGLÉS: titular propuesto "Software & IoT Developer · I build end-to-end products: hardware, API, web & mobile", about espejo del portafolio, experiencias (Founder Vivid Studio / Web Developer Akahl / Content Editor Akahl), UCAB 2018–2026, skills top 3 fijadas (Full-Stack, IoT, REST APIs), "Open to work" activado, foto headshot (fondo liso, luz frontal) → URL final a `site.js`. Los textos los redacta Claude. Tiempo total: 1-2h, no más
 4. Configurar el perfil de GitHub: nombre "Kleeders Ortiz" + avatar + bio con link al portafolio + repo de perfil (Kleeders2002/Kleeders2002 con README) + pinner PharmaMonitorAPI/Web/App, Akahl-Cataloge, AkahlClub, VividStudio + README profesional en cada repo (la tesis trae capturas listas en los Apéndices H/I)
-5. Upwork: perfil 100% (textos en `upwork-profile-texts.md`) → compra única de 100 Connects $15 (35 → badge IDV, resto → propuestas) + badges gratis + Payoneer de cobro "Kleeders Ortiz" (pendiente de crear, gratis)
+5. Upwork: ✅ perfil 100% (1-oct). Restante: tarjeta Portfolio de PharmaMonitor + Working style → Payoneer → Zinli como billing method → compra única de 100 Connects $15 (35 → badge IDV, resto → propuestas) + badges gratis
 6. Aprobar las 3 citas de testimonios con Alex, Penelope y Alejandra (+ subir foto `alejandra.png`)
 7. Primeras propuestas: 4-5/semana (hispanos + inglés escrito), nicho IoT
 8. Inglés 30 min/día

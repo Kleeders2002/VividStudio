@@ -2,7 +2,8 @@
 
 > Redactados por Claude el **1-oct-2026** con la información verificable de CONTEXTO.md
 > (cero cifras infladas — cada frase se defiende en una entrevista).
-> Estado: **PENDIENTE pegar en Upwork.**
+> Estado al 1-oct (noche): **perfil 100% ✅** — título, overview, skills, employment ×5
+> y education pegados. Pendiente: Portfolio, Working style, IDV (compra única), badges.
 
 ## Título (máx. 70 caracteres)
 
@@ -47,12 +48,11 @@ Tailwind CSS, JavaScript, Full-Stack Development
 ```
 (Si algún tag no existe exacto en Upwork —los nombres varían—, elige el más cercano. Top 3 fijadas: IoT, React, REST API.)
 
-## Portfolio / Employment / Education (secciones que faltan al 1-oct)
+## Portfolio / Employment / Education
 
-> Estado del perfil al 1-oct: 80% completo — ya hechos: foto, overview, skills.
-> Portfolio solo vale +20% → llega a 100% de una vez, pero llenar también empleo
-> y educación porque un perfil sin historial se ve vacío. SKIP: video introduction
-> (expone el inglés hablado), certifications y other experiences (nada real).
+> Employment (×5) y Education: ✅ PEGADAS 1-oct (perfil quedó en 100% SIN Portfolio —
+> Upwork lo permitió, pero el Portfolio es lo que más convierte clientes: hacerlo).
+> SKIP: video introduction (expone el inglés hablado), certifications y other experiences.
 
 ### Portfolio → proyecto (agregar HOY)
 
@@ -91,14 +91,15 @@ Repos: github.com/Kleeders2002 (PharmaMonitorAPI / PharmaMonitorWeb / PharmaMoni
 4. **Full-Stack & IoT Software Engineer | UCAB / PharmaMonitor** · December 2024 - May 2026 ✅ — bullets técnicos (FastAPI/SQLModel/PostgreSQL, JWT, RBAC, React dashboard, React Native Expo, ESP8266 + DHT22/BH1750/BMP180, Render/Vercel/Neon, piloto 7 días, 1,000+ puntos 100% integridad, alerta <3s) verificados contra tesis.
 5. **Software Development Intern | Laboratorios Vivax Pharmaceuticals C.A.** · February 2024 - April 2024 ✅ — Caracas; sistema de solicitudes de soporte en C# / ASP.NET.
 
-### Education
+### Education — ✅ PEGADA (1-oct)
 
 **School:** Universidad Católica Andrés Bello (UCAB)
-**Degree:** B.Sc. in Computer Engineering (Ingeniería en Informática) · 2018–2026
-**Description:**
+**Degree:** Bachelor's Degree · **Area of Study:** Computer Engineering · **Dates:** 2018–2026
+**Description pegada:**
 ```
 Thesis: PharmaMonitor — IoT system and web platforms for automated environmental control in pharmaceutical storage. Graded 19/20. Graduating December 2026.
 ```
+(+ frase opcional "IEEE/ACM-aligned curriculum (renovated 2023)" — según quedó en el perfil)
 
 ### Linked accounts (después de limpiar GitHub — pendiente #4 de CONTEXTO.md)
 
@@ -106,14 +107,15 @@ Antes de conectar GitHub en Upwork, 10 min de limpieza: nombre "Kleeders Ortiz" 
 avatar (misma headshot) + bio + pin de repos. Un GitHub sin cara espanta más de lo
 que suma el +10%.
 
-## Checklist al pegar (en orden)
+## Checklist (estado al 1-oct, noche)
 
-1. Título + Overview + Skills + Rate ($15/hr) → perfil al 100%.
-2. Foto: misma headshot que se usará en LinkedIn (fondo liso, luz frontal).
-3. Portfolio: agregar PharmaMonitor (repos API/Web/App) y Akahl Catalogue — **con permiso previo de Akahl por WhatsApp**.
-4. Employment history + Education + Working style (assessment de 2 min).
-5. SKIP a propósito: video introduction (inglés hablado), certifications, other experiences.
-6. Badges "Availability" y "Boost": activar (gratis).
-7. Payoneer de cobro: crear YA (gratis, aprueba en días) — registrar EXACTAMENTE como **"Kleeders Ortiz"**.
-8. **Compra única (solo cuando el perfil esté 100%): 100 Connects = $15** → 35 van al badge "Identity Verified" (el IDV no tiene vía gratis on-demand) + ~65 rinden las primeras 4-5 propuestas. El IDV JAMÁS justifica una compra por sí solo.
-9. Para pagar los Connects: tarjeta internacional o PayPal (Payoneer no sirve aquí) — resolver logística ANTES del día de la compra.
+1. ✅ Título + Overview + Skills + Rate ($15/hr).
+2. ✅ Foto de perfil.
+3. ✅ Employment history (5 entradas) + Education (UCAB) → **perfil 100%**.
+4. ⬜ **Portfolio:** tarjeta PharmaMonitor (textos arriba) — SIGUIENTE; tarjetas Akahl Catalogue y Club SOLO con permiso previo de Akahl (WhatsApp).
+5. ⬜ Working style (assessment de 2 min, opcional pero gratis).
+6. ⬜ Badges "Availability" y "Boost": activar (gratis).
+7. ⬜ Payoneer de cobro: crear (gratis, aprueba en días) — EXACTAMENTE como **"Kleeders Ortiz"**.
+8. ⬜ Agregar Zinli como método de facturación (gratis; orden de intento: Zinli → Binance → PayPal; cargar ~$17-18; datos de facturación = "Kleeders Ortiz"; si rechaza no reintentar — cambiar de tarjeta; elegir USD si pregunta).
+9. ⬜ **Compra única: 100 Connects = $15** → 35 al badge "Identity Verified" + ~65 para las primeras 4-5 propuestas.
+10. SKIP a propósito: video introduction (inglés hablado), certifications, other experiences.
