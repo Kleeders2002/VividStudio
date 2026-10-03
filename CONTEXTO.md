@@ -43,7 +43,7 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 
 ## 5. Estado actual del portafolio (ESTE repo)
 
-- **Repo:** `github.com/Kleeders2002/VividStudio` → push a `main` dispara deploy automático de Vercel (actualmente visible en `vividstudio-jet.vercel.app`; el dominio final `vividstudio.dev` está por conectar en Vercel).
+- **Repo:** `github.com/Kleeders2002/VividStudio` → push a `main` dispara deploy automático de Vercel. **Dominio `vividstudio.dev` CONECTADO y verificado en vivo (3-oct): responde 200 con redirección a www correcta.** El alias vercel.app sigue existiendo.
 - **Stack:** Vite 6 + React 19 + Tailwind CSS v4 + framer-motion + lucide-react. Bilingüe **inglés (default) / español** con toggle en el navbar (preferencia en localStorage `vs-lang`).
 - **Local:** `npm run dev` (localhost:5173) · Build: `npm run build`.
 - **Orden de secciones:** Hero (ventana de código decorativa con "Kleeders") → About (cifras honestas) → Services (3 tarjetas + complemento diseño) → Process (4 pasos) → "Working with me" (4 garantías) → Projects (3 casos de estudio: Problema/Solución/Resultado) → Testimonials (3 clientes reales) → Timeline (2018—2026 → hoy) → Tech Stack (marquee + 3 categorías) → FAQ (4 preguntas) → Contact (CTA Upwork + kleeders@) → Footer (link discreto al Bazar).
@@ -172,5 +172,5 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 10. Revisar a fondo `vividstudiobazar.vercel.app` + definir quién actualiza su catálogo (sitio legitima, IG vende)
 11. `akahl-club.png` screenshot real + permiso de Akahl para repos públicos + escaneo de historial
 12. Piloto QR + dedicatorias (automatizado) tras validar 5-10 llaveros
-13. Conectar `vividstudio.dev` en Vercel como dominio del portafolio
+13. ✅ HECHO (verificado 3-oct): `vividstudio.dev` conectado a Vercel y funcionando (200, redirige a www)
 14. 3-dic-2026: "graduating" → "graduated" en ambos idiomas
