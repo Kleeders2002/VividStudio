@@ -75,6 +75,7 @@
 - **10-oct-2026:** propuse a los CEO consolidar todo en WordPress. Definí las 2 prioridades del mensaje: (1) exportar contactos del CRM, (2) terminar la sección de reservas. Descubrí que Amelia ya estaba instalado.
 - **10/11-oct-2026:** ella rechazó la idea de "otro link" pensando que costaba dinero → le expliqué que agregar páginas/rutas en WordPress es $0 (misma web, mismo hosting, sin suscripciones; lo único pagado es mi trabajo puntual). Re-anclé la conversación: el ahorro mensual real está en salir de GoHighLevel.
 - **11-oct-2026:** regateó hasta **$200 y acepté**. (Mi cotización era $350–450 con piso de $250; acepté por debajo del piso sabiendo que la recuperación viene de las fases siguientes y del mantenimiento. Decisión cerrada.)
+- **14-oct-2026:** **ella informa que hablaron con otra persona que cobra más barato.** Estado: trato en pausa. Respuesta de Kleeders (misma fecha): mensaje de puerta abierta sin igualar precio — oferta en pie en $200 (si reabren, pedir el depósito de $100 ANTES de tocar código; si regresan a rescatar el trabajo del tercero, cotizar de nuevo desde $250–300, precio de rescate). El trabajo de edición de contenido (~$500/mes) sigue normal e intacto.
 - **14-oct-2026 (estado actual):** sin confirmación de que el alcance por escrito haya sido enviado ni del depósito recibido. Es lo pendiente #1.
 
 ## 7. Alcance del trato a $200 (a enviar por escrito)
@@ -107,6 +108,7 @@
 
 ## 9. Riesgos y lecciones ya identificadas
 
+- **LECCIÓN 14-oct: un "sí" verbal no es un trato cerrado.** Entre el acuerdo (11-oct) y el alcance escrito + depósito (nunca enviados) entró el "otro más barato". Regla desde ahora: **acuerdo → alcance por escrito EL MISMO DÍA → depósito → código.** En Upwork esto lo previene el hito fondeado en escrow.
 - **"Al gusto de ella" ya falló una vez** (con la persona anterior) → anclar el diseño con referencias ANTES de construir.
 - **WP-Cron en hosting compartido** = recordatorios de 5 minutos tardíos sin cron de servidor.
 - **Correos desde el hosting directo = spam** → siempre SMTP/ESP.
