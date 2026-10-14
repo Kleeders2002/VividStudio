@@ -178,3 +178,4 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 12. Piloto QR + dedicatorias (automatizado) tras validar 5-10 llaveros
 13. ✅ HECHO (verificado 3-oct): `vividstudio.dev` conectado a Vercel y funcionando (200, redirige a www)
 14. 3-dic-2026: "graduating" → "graduated" en ambos idiomas
+15. **Acto de grado UCAB 3-dic (5:00 p.m., #112 en la lista):** plan de fotos recomendado **B de Foto Self Color $235** (el A no incluye fotos digitales — el C son adornos; decisión 14-oct). Pago SOLO 23–27/11 (Zelle/divisas/pago móvil). Medición toga **01/12** (turno tarde) · Misa 02/12 2pm · Firma acta + ensayo 02/12 3:30pm · Llegar 1pm el día del acto · Máx 3 familiares. **OBLIGATORIO: llenar encuestas en secretariaenlinea ANTES de pagar el derecho de grado (5 U.C., aparte) o hay retención y no firma el acta.** Encuesta de egresado ya respondida (emprendimiento: Vivid Studio; trabajo: Akahl) — 14-oct
