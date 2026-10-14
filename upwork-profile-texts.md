@@ -58,23 +58,19 @@ Tailwind CSS, JavaScript, Full-Stack Development
 
 **Título:** `PharmaMonitor — IoT Environmental Monitoring System`
 
-**Descripción:**
+**Descripción** (límite Upwork: 600 caracteres — versión ajustada 14-oct; el repos va como ENLACE 🔗, no en el texto):
 ```
 End-to-end IoT system that monitors storage conditions for pharmaceuticals.
 
-ESP8266 firmware (DHT22, BMP180, BH1750, WS2811 LEDs) talks to a FastAPI REST
-API (3-layer API-Led architecture) on PostgreSQL. Data is visualized in a React
-web dashboard and a React Native mobile app with persistent local notifications.
+ESP8266 firmware (DHT22, BMP180, BH1750) talks to a FastAPI REST API on PostgreSQL, with a React web dashboard and a React Native mobile app with persistent alerts.
 
-Validated with a 7-day pilot in a real pharmacy monitoring insulin storage:
-1,008 readings with 100% completeness, and a critical temperature excursion was
-detected and notified in under 3 seconds. Graded 19/20 by the university jury.
-
-Repos: github.com/Kleeders2002 (PharmaMonitorAPI / PharmaMonitorWeb / PharmaMonitorApp)
+Validated in a 7-day pilot in a real pharmacy monitoring insulin: 1,008 readings with 100% completeness, and a critical temperature excursion detected and notified in under 3 seconds. Graded 19/20 by the university jury.
 ```
 
+**Skills de la tarjeta (5):** Internet of Things (IoT), Arduino, FastAPI, React, React Native
+
 **Imágenes:** las capturas de los Apéndices H/I de la tesis + la foto del hardware
-(`public/images/projects/proyecto-iot.png` de este repo ya sirve).
+(`public/images/projects/proyecto-iot.png` de este repo ya sirve). Orden: 1) dashboard web, 2) app móvil, 3) hardware.
 **URL del proyecto:** `https://github.com/Kleeders2002`
 **⚠️ Akahl Catalogue/Club al portfolio: SOLO con permiso previo de Akahl (WhatsApp).**
 
