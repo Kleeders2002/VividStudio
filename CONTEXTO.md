@@ -157,15 +157,19 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 >   de banco VE (Venezuela no soportada como bank country) + **dominio
 >   vividstudio.dev verificado vivo** (pendiente #13 cerrado). Portfolio de
 >   PharmaMonitor: en curso (⚠️ confirmar si la tarjeta quedó guardada).
-> - **META 4-oct (una sola):** Working style (2 min) + 2FA Gmail + Zinli
->   cargada (~$17) → billing method → **compra 100 Connects $15 → badge IDV.**
+> - **HECHO 15-oct:** tarjeta Portfolio PUBLICADA (descripciones por imagen +
+>   enlace a PharmaMonitorWeb con descripción en GitHub) + Working style ✅
+>   (etiqueta de perfil: "Accountable for outcomes") + 2FA Gmail ya estaba
+>   activa desde 11-ene-2025.
+> - **RESTA HOY (15-oct):** Zinli cargada (~$17) → billing method →
+>   **compra 100 Connects $15 → badge IDV.**
 > - **Resto de la semana:** LinkedIn con kleeders@ (textos de Claude) → URLs a
 >   `site.js` → primeras 5 propuestas (hispanos + inglés escrito, nicho IoT).
 > - Recordar: WhatsApp a Akahl (permiso tarjetas Catalogue/Club) + verificar
 >   Overview pegado + aclarar año de inicio de Catalogue (2025 vs 2026).
 
 1. Llenar la URL de Upwork en `src/data/site.js` (GitHub ✅ hecho 29-sep; LinkedIn llega con la tarea 3)
-2. ✅ HECHO (1-oct): buzón `kleeders@vividstudio.dev` creado y probado (el sitio ya lo muestra). Falta la otra mitad del pendiente: activar 2FA en el Gmail personal
+2. ✅ TODO HECHO: buzón `kleeders@vividstudio.dev` creado y probado (1-oct) + 2FA del Gmail personal YA ESTABA ACTIVO desde 11-ene-2025 (descubierto 15-oct; 2 llaves de acceso + teléfono 2FA 0424-1739462 registrado; sugerencia menor: agregar teléfono de RECUPERACIÓN, 1 min)
 3. **Crear LinkedIn** registrado CON `kleeders@vividstudio.dev` (Gmail personal como correo de recuperación; con ImprovMX las notificaciones llegan solas al Gmail) → URL personalizada `linkedin.com/in/kleedersortiz` → perfil EN INGLÉS: titular propuesto "Software & IoT Developer · I build end-to-end products: hardware, API, web & mobile", about espejo del portafolio, experiencias (Founder Vivid Studio / Web Developer Akahl / Content Editor Akahl), UCAB 2018–2026, skills top 3 fijadas (Full-Stack, IoT, REST APIs), "Open to work" activado, foto headshot (fondo liso, luz frontal) → URL final a `site.js`. Los textos los redacta Claude. Tiempo total: 1-2h, no más
 4. Configurar el perfil de GitHub: nombre "Kleeders Ortiz" + avatar + bio con link al portafolio + repo de perfil (Kleeders2002/Kleeders2002 con README) + pinner PharmaMonitorAPI/Web/App, Akahl-Cataloge, AkahlClub, VividStudio + README profesional en cada repo (la tesis trae capturas listas en los Apéndices H/I)
 5. Upwork: ✅ perfil 100% (1-oct). Restante: ⚠️ confirmar tarjeta Portfolio guardada + Working style + 2FA Gmail + Zinli como billing method → **compra única de 100 Connects $15 (35 → badge IDV) = LA META DEL 4-OCT**. Payoneer: cuenta en registro (3-oct), ticket 261003-009831 esperando respuesta de soporte
