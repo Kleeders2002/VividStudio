@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Primeros $100 en Upwork — proyección realista · Kleeders Ortiz</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --ring:           rgba(11,11,11,0.10);
+    /* rampa ordinal azul (validada --ordinal, modo luz) */
+    --ph1: #86b6ef; --ph2: #5598e7; --ph3: #2a78d6; --ph4: #1c5cab;
+    --band: rgba(205,226,251,0.55);      /* paso 100 del ramp, lavado */
+    --money: #0ca30c;                     /* status good — icono + etiqueta */
+    --today: #0b0b0b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:    #1a1a19;
+      --page:         #0d0d0d;
+      --text-primary: #f0efec;
+      --text-secondary: #c3c2b7;
+      --text-muted:   #898781;
+      --gridline:     #2c2c2a;
+      --baseline:     #383835;
+      --ring:         rgba(255,255,255,0.10);
+      --ph1: #6da7ec; --ph2: #5598e7; --ph3: #3987e5; --ph4: #2a78d6;
+      --band: rgba(57,135,229,0.18);
+      --today: #f0efec;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--page); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .viz-root {
+    background: var(--surface-1); color: var(--text-primary);
+    max-width: 960px; margin: 24px auto; padding: 32px 36px 40px;
+    border: 1px solid var(--ring); border-radius: 12px;
+  }
+  h1 { font-size: 21px; font-weight: 650; letter-spacing: -0.01em; }
+  .sub { color: var(--text-secondary); font-size: 13.5px; margin-top: 6px; line-height: 1.5; }
+  .hero { margin-top: 20px; display: flex; gap: 28px; align-items: baseline; flex-wrap: wrap; }
+  .hero .big { font-size: 34px; font-weight: 700; letter-spacing: -0.02em; }
+  .hero .why { font-size: 13px; color: var(--text-secondary); max-width: 460px; line-height: 1.5; }
+
+  /* ===== timeline ===== */
+  .tl { position: relative; margin-top: 88px; height: 210px; }
+  .band {
+    position: absolute; top: 96px; height: 34px; border-radius: 6px;
+    background: var(--band); border: 1px dashed var(--baseline);
+  }
+  .band-label {
+    position: absolute; top: 134px; font-size: 11.5px; color: var(--text-secondary);
+    text-align: center; white-space: nowrap;
+  }
+  .track {
+    position: absolute; top: 96px; left: 0; right: 0; height: 34px;
+    display: flex; border-radius: 8px; overflow: hidden;
+    outline: 1px solid var(--ring);
+    gap: 2px; /* separador de superficie entre segmentos */
+    background: transparent;
+  }
+  .seg { position: relative; height: 100%; }
+  .seg .seg-name {
+    position: absolute; left: 0; right: 0; top: 42px; text-align: center;
+    font-size: 11.5px; color: var(--text-secondary); line-height: 1.35; white-space: nowrap;
+  }
+  .seg .seg-dates {
+    position: absolute; left: 0; right: 0; top: 74px; text-align: center;
+    font-size: 10.5px; color: var(--text-muted); white-space: nowrap;
+  }
+  .tail {
+    position: absolute; top: 96px; height: 34px; border-radius: 0 8px 8px 0;
+    background: repeating-linear-gradient(45deg, var(--gridline) 0 5px, transparent 5px 10px);
+  }
+  .tail-label { position: absolute; top: 134px; font-size: 11px; color: var(--text-muted); white-space: nowrap; }
+
+  /* ejes */
+  .axis { position: absolute; top: 150px; left: 0; right: 0; height: 1px; background: var(--baseline); }
+  .tick { position: absolute; top: 156px; transform: translateX(-50%); font-size: 11px; color: var(--text-muted); white-space: nowrap; }
+
+  /* hitos */
+  .dot {
+    position: absolute; top: 88px; width: 12px; height: 12px; border-radius: 50%;
+    transform: translateX(-50%); background: var(--surface-1);
+    border: 2.5px solid var(--ph3); cursor: default; z-index: 3;
+  }
+  .dot::after { content: ""; position: absolute; inset: -9px; } /* target amplio */
+  .dot.done { background: var(--today); border-color: var(--today); }
+  .dot.money { width: 16px; height: 16px; top: 86px; background: var(--money); border-color: var(--surface-1); box-shadow: 0 0 0 2px var(--money); }
+  .mlabel {
+    position: absolute; transform: translateX(-50%); text-align: center;
+    font-size: 12px; color: var(--text-primary); font-weight: 600; white-space: nowrap; z-index: 3;
+  }
+  .mlabel small { display: block; font-weight: 400; font-size: 11px; color: var(--text-secondary); }
+  .r1 { top: 18px; } .r2 { top: 52px; }
+  .stem { position: absolute; width: 1px; background: var(--baseline); z-index: 2; }
+
+  /* tooltip */
+  #tip {
+    position: fixed; max-width: 280px; padding: 10px 12px; border-radius: 8px;
+    background: var(--surface-1); color: var(--text-primary);
+    border: 1px solid var(--ring); box-shadow: 0 4px 16px rgba(0,0,0,0.14);
+    font-size: 12.5px; line-height: 1.45; display: none; z-index: 50; pointer-events: none;
+  }
+  #tip b { display: block; margin-bottom: 3px; }
+
+  /* tabla supuestos */
+  .why-table { margin-top: 34px; width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  .why-table caption { text-align: left; font-size: 14px; font-weight: 650; padding-bottom: 8px; }
+  .why-table th { text-align: left; color: var(--text-muted); font-weight: 600; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--baseline); font-size: 11.5px; }
+  .why-table td { padding: 7px 10px 7px 0; border-bottom: 1px solid var(--gridline); color: var(--text-secondary); vertical-align: top; }
+  .why-table td:first-child { color: var(--text-primary); font-weight: 600; white-space: nowrap; }
+  .footnote { margin-top: 18px; font-size: 12.5px; color: var(--text-secondary); line-height: 1.55; border-left: 3px solid var(--ph3); padding-left: 12px; }
+  .footnote b { color: var(--text-primary); }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <h1>Primeros $100 en Upwork — proyección realista</h1>
+  <p class="sub">Base del cálculo: perfil 100% + IDV el 15 oct · 1 propuesta/día (5/semana) · nicho IoT/full-stack · cuentas nuevas sin reseñas.</p>
+
+  <div class="hero">
+    <div class="big">28 nov – 5 dic</div>
+    <div class="why"><b>Respuesta base.</b> Es la semana más probable de ver tus primeros $100 líquidos: contrato pequeño alrededor del 5-nov, entregado en 1–2 semanas, aprobado por el cliente, +5 días de retención de Upwork. La ventana completa va del 12-nov al 20-dic.</div>
+  </div>
+
+  <div class="tl" id="tl">
+    <!-- ventana del dinero -->
+    <div class="band" style="left:34.1%; width:46.4%;" data-tip="<b>Ventana de cobro: 12 nov – 20 dic</b>Todo el rango realista. Dentro de él: optimista 12-nov · base 28-nov/5-dic · lento 15–20 dic (si propones menos de 5/semana, se va a enero)."></div>
+    <div class="band-label" style="left:34.1%; width:46.4%;">← ventana de tus primeros $100 →</div>
+
+    <!-- fases (rampa ordinal azul, validada) -->
+    <div class="track">
+      <div class="seg" style="width:24.4%; background:var(--ph1);" data-tip="<b>Fase 1 · Propuestas</b>16 oct – 5 nov · 1/día, 5/semana ≈ 15 propuestas. Tasa de respuesta esperada con perfil nuevo: 10–20%."><div class="seg-name">Propuestas 5/sem</div><div class="seg-dates">16 oct – 5 nov</div></div>
+      <div class="seg" style="width:17.1%; background:var(--ph2);" data-tip="<b>Fase 2 · Entrevistas + 1er contrato</b>5 – 19 nov · chats por escrito (sin llamada). 1 contrato cada 10–25 propuestas. Fijo pequeño: $100–250."><div class="seg-name">Entrevistas + 1er contrato</div><div class="seg-dates">5 – 19 nov</div></div>
+      <div class="seg" style="width:17.1%; background:var(--ph3);" data-tip="<b>Fase 3 · Trabajo + entrega</b>19 nov – 3 dic · proyecto pequeño entregado en 1–2 semanas con actualizaciones cortas diarias."><div class="seg-name">Trabajo + entrega</div><div class="seg-dates">19 nov – 3 dic</div></div>
+      <div class="seg" style="width:20.7%; background:var(--ph4);" data-tip="<b>Fase 4 · Retención + cobro</b>3 – 20 dic · el cliente aprueba el hito → Upwork retiene 5 días (cuenta nueva) → dinero disponible. Fee de Upwork ~10%."><div class="seg-name">Retención 5 días + cobro</div><div class="seg-dates">3 – 20 dic</div></div>
+    </div>
+    <div class="tail" style="left:80.5%; width:19.5%;" data-tip="<b>Escenario lento</b>Si envías menos de 5 propuestas/semana o tardas en responder chats, toda la cadena se desplaza a enero. El gráfico no se acorta solo."><div class="tail-label" style="left:81%;">escenario lento → enero</div></div>
+
+    <!-- hitos -->
+    <div class="dot done" style="left:0%;" data-tip="<b>HOY · 15 oct</b>100 Connects comprados ($15) + badge Identity Verified activado con 35 de ellos. Sin esto, no hay propuesta #1."></div>
+    <div class="mlabel r1" style="left:0%;">HOY · IDV + Connects ✅</div>
+    <div class="stem" style="left:0%; top:30px; height:58px;"></div>
+
+    <div class="dot" style="left:1.2%;" data-tip="<b>16 oct · 1ª propuesta</b>Empezando mañana. Texto base ya redactado; se adapta a cada oferta en 10 min."></div>
+    <div class="mlabel r2" style="left:1.2%;">1ª propuesta</div>
+    <div class="stem" style="left:1.2%; top:64px; height:24px;"></div>
+
+    <div class="dot" style="left:8.5%;" data-tip="<b>22 oct – 4 nov · primeras respuestas</b>Con ~15 propuestas enviadas y tasa de respuesta de 10–20% (normal en perfil nuevo): 1–3 conversaciones abiertas."></div>
+    <div class="mlabel r1" style="left:8.5%;">1ª respuesta<small>22 oct – 4 nov</small></div>
+    <div class="stem" style="left:8.5%; top:30px; height:58px;"></div>
+
+    <div class="dot" style="left:17.1%;" data-tip="<b>29 oct – 19 nov · primer contrato</b>1 contrato cada 10–25 propuestas es el rango normal sin reseñas. Fijo pequeño, hito fondeado en escrow."></div>
+    <div class="mlabel r2" style="left:17.1%;">1er contrato<small>29 oct – 19 nov</small></div>
+    <div class="stem" style="left:17.1%; top:64px; height:24px;"></div>
+
+    <div class="dot money" style="left:53.7%;" data-tip="<b>💰 Base: 28 nov – 5 dic</b>Entregas → cliente aprueba → 5 días de retención → disponible. Optimista: 12-nov · Lento: 15–20 dic."></div>
+    <div class="mlabel r1" style="left:53.7%;">💰 primeros $100<small>base: 28 nov – 5 dic</small></div>
+    <div class="stem" style="left:53.7%; top:30px; height:56px;"></div>
+
+    <!-- escenarios -->
+    <div class="tick" style="left:34.1%; top:186px;">optimista · 12 nov</div>
+    <div class="tick" style="left:53.7%; top:186px; color:var(--text-primary); font-weight:600;">base · 28 nov–5 dic</div>
+    <div class="tick" style="left:80.5%; top:186px;">lento · 15–20 dic</div>
+
+    <!-- eje -->
+    <div class="axis"></div>
+    <div class="tick" style="left:0%;">15 oct</div>
+    <div class="tick" style="left:20.7%;">1 nov</div>
+    <div class="tick" style="left:37.8%;">15 nov</div>
+    <div class="tick" style="left:57.3%;">1 dic</div>
+    <div class="tick" style="left:80.5%;">20 dic</div>
+    <div class="tick" style="left:100%;">5 ene</div>
+  </div>
+
+  <!-- tabla = vista de datos + supuestos -->
+  <table class="why-table">
+    <caption>Por qué cada fecha — los supuestos que mueven la cadena</caption>
+    <tr><th>Hito</th><th>Ventana</th><th>Supuesto que lo maneja</th></tr>
+    <tr><td>IDV + 100 connects</td><td>15 oct (hoy)</td><td>Sin badge ni connects no hay propuesta #1 — es el único paso que no se puede mover</td></tr>
+    <tr><td>1ª propuesta</td><td>16 oct</td><td>1 por día laborable. La plantilla base ya está; cada adaptación toma ~10 min</td></tr>
+    <tr><td>1ª respuesta</td><td>22 oct – 4 nov</td><td>10–20% de tasa de respuesta con perfil nuevo sin reseñas (normal, no es castigo personal)</td></tr>
+    <tr><td>1er contrato</td><td>29 oct – 19 nov</td><td>1 contrato cada 10–25 propuestas. Fijo pequeño ($100–250), hito en escrow</td></tr>
+    <tr><td>Entrega</td><td>+1–2 semanas</td><td>Proyecto pequeño, actualización corta diaria al cliente</td></tr>
+    <tr><td>Cobro</td><td>+5 días</td><td>Retención de Upwork para cuentas nuevas + ~10% de fee. $100 de contrato ≈ $90 líquidos</td></tr>
+    <tr><td><b>Primeros $100</b></td><td><b>~28 nov – 5 dic</b></td><td>Todo lo anterior encadenado. Rango completo: 12 nov – 20 dic</td></tr>
+  </table>
+
+  <p class="footnote"><b>La única variable que controlas:</b> propuestas enviadas/semana. Cada semana por debajo de 5 desplaza TODA la cadena a la derecha, sin piedad y sin avisar. El optimista (12-nov) y el lento (enero) no los decide el mercado — los decides tú con el contador de propuestas.</p>
+</div>
+
+<div id="tip"></div>
+<script>
+  const tip = document.getElementById('tip');
+  document.querySelectorAll('[data-tip]').forEach(el => {
+    el.addEventListener('mousemove', e => {
+      tip.innerHTML = el.getAttribute('data-tip');
+      tip.style.display = 'block';
+      const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+      let x = e.clientX + pad, y = e.clientY + pad;
+      if (x + w > innerWidth - 8)  x = e.clientX - w - pad;
+      if (y + h > innerHeight - 8) y = e.clientY - h - pad;
+      tip.style.left = x + 'px'; tip.style.top = y + 'px';
+    });
+    el.addEventListener('mouseleave', () => { tip.style.display = 'none'; });
+  });
+</script>
+</body>
+</html>
