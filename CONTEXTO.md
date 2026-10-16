@@ -164,6 +164,10 @@ Dos marcas bajo un mismo dominio, identidades separadas por públicos distintos:
 > - **DESDE 16-OCT:** empieza la métrica real — **propuestas/semana.**
 >   Cuota: 1/día laborable, 8-10am, checklist en `estrategia-propuestas.md`.
 >   Meta del mes: 15 propuestas → 2-3 conversaciones → 1 contrato → 1 reseña.
+> - **📌 PROPUESTA #1 ENVIADA (16-oct, ~12:00pm):** "I need developer experienced
+>   in Youtube music API or Youtube API" — $25 fijo, cliente US 4.99★/54 reseñas,
+>   $17K gastados, 74 hires, 5-10 propuestas, posted 1h antes. 11 connects
+>   (quedan 104). Estado: enviada, esperando vista/respuesta.
 > - **Resto de la semana:** LinkedIn con kleeders@ (textos de Claude) → URLs a
 >   `site.js` → primeras 5 propuestas (hispanos + inglés escrito, nicho IoT).
 > - Recordar: WhatsApp a Akahl (permiso tarjetas Catalogue/Club) + verificar
